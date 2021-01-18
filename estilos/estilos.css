@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #666;
+}
+
+header, main, aside, footer, li {
+	padding:10px;
+}
+
+li {
+	list-style-type: none;
+	background-color: #aaa;
+	height: 90px;
+	border: solid 3px #fff;
+}
+
+#header {
+	background-color: rgba(255,255,255,0.8);
+}
+#menu {
+	background-color: purple; 
+	width: 80%;
+	margin:0 auto;
+}
+#menu li {
+	height: 50px;
+	background-color: yellow;
+}
+
+#main {
+	background-color: rgba(255,255,255,0.5);
+}
+#aside {
+	background-color: rgba(255,255,255,0.3);
+}
+#footer {
+	background-color: rgba(255,255,255,0.1);
+}
