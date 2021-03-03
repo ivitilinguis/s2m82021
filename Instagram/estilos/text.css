@@ -5,6 +5,7 @@
 	font-family: verdana;
 	scrollbar-width: none;
 	/*	cargarse la barra de scroll para Firefox*/
+
 }
 
 *::-webkit-scrollbar {
@@ -21,7 +22,7 @@ a {
 	text-decoration: none;
 }
 
-#header {
+.header {
 	height: 10vh;
 	background-color: #fff;
 	width: 100%;
@@ -38,11 +39,57 @@ a {
 }
 
 header .fa {
-	font-size: 22px;
+	font-size: 25px;
 	float:right;
-	margin: 0 10px;
+	margin: 0 15px;
 	color: black;
+}
 
+/*INTENTO MENU HAMBURGUESA*/
+.checkbox {
+	position: absolute;
+	right: 5vw;
+	height: 22px;
+	opacity: 0;
+	z-index: 1;
+}
+
+.menuocu {
+	position: absolute;
+	right: -50vw;
+	background-color:rgba(0,0,0,.75);
+	border-radius: 10%;
+	z-index: 1;
+	transition-delay: .20s, .20s; 
+	transition-duration: .20s, .20s;
+}
+
+.menuocu p {
+	padding: 10px;
+	color:#ddd;
+	text-align: center;
+}
+
+#noche {
+/*	padding: 10px;
+	color:#ddd;
+	text-align: center;
+	background-color:rgba(0,0,0,0);
+	border-width: 0px;
+    border-style: none;
+    border-color: rgba(0,0,0,.75);
+    font: 400 16px verdana;*/
+    width:30px;
+}
+
+#noche:focus {
+	border: none;
+}
+
+.checkbox:checked ~ .menuocu {
+	right: 5vw;
+	transition-delay: .20s, .20s; 
+	transition-duration: .20s, .20s;
 }
 
 aside {
@@ -55,7 +102,7 @@ aside {
 #slider {
 /*	background-color: yellow;*/
 	height: 15vh;
-	width: 300vw; 
+	width: 200vw; 
 }
 
 .bola {
@@ -87,8 +134,9 @@ aside {
 #main {
 	height: 65vh;
 	overflow-y: auto;
-	
+	overflow-x: hidden;
 }
+
 
 .contenido {
 	margin: 25px 0;
@@ -111,6 +159,20 @@ aside {
 	margin-bottom: 10px;
 }
 
+.contbola {
+	width: 100%;
+	position: relative;
+}
+
+.contbola .eli {
+	position: absolute;
+    right: 3vw;
+}
+
+.menuocon {
+	top:5vh;
+}
+
 .contenido .comment{
 	margin-top: 10px;
 	font-size: 10px;
@@ -119,7 +181,7 @@ aside {
 }
 
 .contenido .divcontenido {
-	height: 30vh;
+	height: 200px;
 	overflow: hidden;
 }
 .contenido .imgcontenido {
