@@ -1,0 +1,164 @@
+@media screen and (max-width: 480px){
+
+h2 {
+	font-size: 17px;
+}
+
+#imagita {
+	display: none;
+}
+
+.menu{
+	display: none;
+	background-color: white;
+	position: absolute;
+	top: 49px;
+	left: 0;
+	}
+
+.check {
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 2;
+	opacity: 0;
+}
+.check:checked ~ .menu {
+	display: block;
+	height: 100vh;
+	width: 100%;
+	color:#aaa;
+	font-size: 17px;
+}
+
+.izquierda {
+	position: absolute;
+	top:50px;
+	width: 100%;
+	left:0;
+	background-color: white;
+}
+
+#desplegado{
+	display: none;
+	position: relative;
+	margin-top: 30px;
+	padding: 10px 0;
+	top:0;
+	left:20%;
+	width:30%;
+	padding-left: 10px;
+	background-color: white;
+	border-left: solid 1px #aaa;
+	text-decoration: none;
+	font-size: 20px;
+	height: 400px;
+}
+#desplegadodos{
+	display: none;
+	top:0;
+	left:35%;
+	width:30%;
+	margin-top: 30px;
+	padding: 10px 0 0 10px;
+	background-color: white;
+	border-left: solid 1px #aaa;
+	text-decoration: none;
+	font-size: 20px;
+	height: 400px;
+}
+
+.iconos {
+	padding: 10px;
+}
+.iconos a:first-child {
+	display: none;
+}
+
+.iconos li {
+display: inline-block;
+margin: 0 10px;
+}
+
+
+/*****+++++MAIN++++++*******/
+.section {
+	overflow: hidden;
+}
+
+#potaca {
+	background-image: url("../img/home.jpg");
+	text-align: center;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: 50px; 
+}
+
+#potencia {
+	background-color: rgba(0,0,0,.25);
+	height: 100vh;
+}
+
+#pedales {
+	padding: 40vh 15% 0;
+	color:white;
+	font-size: 35px;
+	line-height: 35px;
+}
+
+#potencia p {
+ 	padding: 3vh 12% 0;
+	color: white;
+}
+
+#descubre {
+	background-color: white;
+	border-radius: 50px;
+	color:black;
+	width:110px;
+	height: 50px;
+	margin-top:20px;
+	border:none;
+}
+#descubre:hover {
+	background-color: rgba(0,0,0,0);
+	color:white;
+	border:solid 1px white;
+}
+
+.dots {
+	padding-top: 22vh;
+	color: rgba(255,255,255,0.5);
+	font-size: 8px;
+	}
+
+.dots i {
+	padding: 3px;
+}
+
+/******+++++COMPRA++++++******/
+#carror {
+	display: none;
+}
+
+.compra {
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+#petaca {
+	float: left;
+	margin-left: 20px;
+}
+
+.imagen {
+	height: 80vh;
+}
+
+#bici {
+	width: 100%;
+}
+
+}

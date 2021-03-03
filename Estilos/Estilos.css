@@ -1,7 +1,6 @@
 * {
-	background-color: tomato;
 	font-family: futura;
-	font-size: 70px;
+	font-size: 30px;
 	margin: 20px;
 }
 
@@ -9,7 +8,6 @@ ul {
 	list-style:  none;
 }
 
-.carpeta {
-	text-decoration: none;
-
+#main {
+	padding: 20px;
 }
