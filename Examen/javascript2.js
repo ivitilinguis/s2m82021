@@ -55,6 +55,7 @@ function enterrados () {
 }
 
 
+
 // FUNCIONES DE PAGINA COMPRA
 
 var cleta=document.getElementById('bici');

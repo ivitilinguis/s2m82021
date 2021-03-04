@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Orbea -- Orbea</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 	<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script> <!-- Cargar esto antes de los estilos, siempre -->
 	<link rel="stylesheet" type="text/css" href="Estilos/styles.css">
 	<link rel="stylesheet" type="text/css" href="Estilos/queries_movil.css">
@@ -13,19 +13,21 @@
 </head>
 <body>
 <header>
-	<div><a href="index.html"><h1><i>ORBEA</i></h1></a></div>
+	<a href="index.html"><h1><i>ORBEA</i></h1></a>
 <!-- 	Etiquetas de línea, dentro de etiquetas de bloque! No poner ahref sueltas:
 Imágen, ahref -->
 	<input type="checkbox" class="check">
 			<nav class="menu">
-				<li class="arriba">BICICLETAS
+				<li class="arriba" id="dosci">BICICLETAS
+				<input type="checkbox" class="check2">
 					<ul class="izquierda">
 						<div id="ruta">
 						 	<li id="carro">CARRETERA</li>
+						 	<input type="checkbox" class="check3">
 								<ul id="desplegado">
 									<h2>MODELOS</h2>
 									<li id="orca">Orca<p id="orqui"></p></li>
-									<a href="compra.html"><li id="aero">Orca Aero</li></a>
+									<a href="compracheckbox.html"><li id="aero">Orca Aero</li></a>
 									<li id="avant">Avant<p id="avanti"></p></li>
 									<li id="terra">Terra<p id="terri"></p></li>
 								</ul>
@@ -48,6 +50,12 @@ Imágen, ahref -->
 				<li class="arriba" id="person">PERSONALIZAR</li>
 				<li class="arriba">EQUIPAMIENTO</li>
 				<li class="arriba">HISTORIAS</li>
+				
+				<li class="arriba2">DEMO</li>
+				<li class="arriba2">DISTRIBUIDORES</li>
+				<li class="arriba2">CONTACTO</li>
+				<li class="arriba2">EVENTOS</li>
+				<li class="arriba2">SOPORTE</li>
 		</nav>
 
 		<ul class="iconos">
@@ -61,7 +69,8 @@ Imágen, ahref -->
 		
 </header>
 
-<section class="compra">
+<section>
+<div class="compra">
 	<div id="petaca">
 		<p id="carror">CARRETERA/ORCA AERO</p>
 		<h1>ORCA AERO M21e TEAM</h1>
@@ -80,21 +89,27 @@ Imágen, ahref -->
 		</div>
 	</div>	
 	
+
+
+	<div class="contbola">
+		<div class="bola" id="bola1"></div>
+		<div class="bola" id="bola2"></div>
+		<div class="bola" id="bola3"></div>
+	</div>
+</div>
 	<div class="imagen">
 		<img id="bici" src="img/orcaero/ORCA_AREO_M21eTEAM.jpg">
 	</div>
-	<div class="bola" id="bola1"></div>
-	<div class="bola" id="bola2"></div>
-	<div class="bola" id="bola3"></div>
 
 </section>
 <footer>
 	<div class="footer">
-		<a href=""><h2 class="persona">PERSONALÍZALA</h2></a>
-		<a href=""><h2>COMPRAR</h2></a>
-		<a href=""><h2 class="precio">MUY CARO</h2></a>
+		<a class="persona" href=""><h2>PERSONALÍZALA</h2></a>
+		<a class="venga" href=""><h2>COMPRAR</h2></a>
+		<a class="precio" href=""><h2>5699€</h2></a>
 	</div>
 </footer> 
 
 <script type="text/javascript" language="javascript" src="javascript2.js"></script>
 </body>
+</html>

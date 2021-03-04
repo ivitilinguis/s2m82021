@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Orbea -- Orbea</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 	<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script> <!-- Cargar esto antes de los estilos, siempre -->
 	<link rel="stylesheet" type="text/css" href="Estilos/styles.css">
 	<link rel="stylesheet" type="text/css" href="Estilos/queries_movil.css">
@@ -13,15 +13,17 @@
 </head>
 <body>
 <header>
-	<div><a href="#"><h1><i>ORBEA</i></h1></a></div>
+	<a href="index.html"><h1><i>ORBEA</i></h1></a>
 <!-- 	Etiquetas de línea, dentro de etiquetas de bloque! No poner ahref sueltas:
 Imágen, ahref -->
 	<input type="checkbox" class="check">
 			<nav class="menu">
 				<li class="arriba">BICICLETAS
+				<input type="checkbox" class="check2">
 					<ul class="izquierda">
 						<div id="ruta">
 						 	<li id="carro">CARRETERA</li>
+						 	<input type="checkbox" class="check3">
 								<ul id="desplegado">
 									<h2>MODELOS</h2>
 									<li id="orca">Orca<p id="orqui"></p></li>
@@ -39,7 +41,7 @@ Imágen, ahref -->
 						<div id="imagita"><img id="imagota" src=""></div>						
 						<li id="monta">MONTAÑA</li>
 						<li id="tria">TRIATLÓN</li>
-						<li id="urba">URBANAS</li>
+						<li id="urba">URBANAS</li>	
 						<li id="junior">JUNIOR</li>
 						<li id="outlet">OUTLET</li>
 					</ul>
@@ -48,6 +50,12 @@ Imágen, ahref -->
 				<li class="arriba" id="person">PERSONALIZAR</li>
 				<li class="arriba">EQUIPAMIENTO</li>
 				<li class="arriba">HISTORIAS</li>
+				
+				<li class="arriba2">DEMO</li>
+				<li class="arriba2">DISTRIBUIDORES</li>
+				<li class="arriba2">CONTACTO</li>
+				<li class="arriba2">EVENTOS</li>
+				<li class="arriba2">SOPORTE</li>
 		</nav>
 
 		<ul class="iconos">
@@ -66,12 +74,6 @@ Imágen, ahref -->
 			<h2 id="pedales">POTENCIA TUS PEDALADAS</h2>
 			<p>Hemos diseñado Gain para mejorar tus salidas, no para dominarlas</p>
 			<input type="button" name="descubre" id="descubre" value="DESCÚBRELA">
-			<div class="dots">
-				<i class="fas fa-circle"></i>
-				<i class="fas fa-circle"></i>
-				<i class="fas fa-circle"></i>
-				<i class="fas fa-circle"></i>
-			</div>
 		</div>
 	</div>
 	
@@ -79,3 +81,4 @@ Imágen, ahref -->
 
 <script type="text/javascript" language="javascript" src="javascript2.js"></script>
 </body>
+</html>
