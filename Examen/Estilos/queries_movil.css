@@ -186,11 +186,12 @@ margin: 0 8px;
 }
 
 /******+++++COMPRA++++++******/
+
 #carror {
 	display: none;
 }
 
-.compra {
+.producto {
 	overflow: scroll;
 	padding-top: 50px;
 	display: flex;
@@ -236,7 +237,7 @@ margin: 0 8px;
 #bola3 {
 	background-color: rgb(30,30,30);
 }
-footer{
+.footer{
 	width: 100%;
 	height: calc(20vh - 50px);
 }
@@ -255,10 +256,77 @@ footer{
 
 }
 
-.footer a{
+.footer a {
 	width: 33.3333%;
-	padding: 20px 10px 0 10px;
+
 	color:white;
+}
+
+.footer h2 {
+		font-size: 14px;
+		width: 33.3333%;
+		padding: 20px 10px 0;
+		color:white;
+}
+
+
+/*++++++PRUEBA MENU ELECCION++++++*/
+
+#eleccion {
+	top: 50px;
+	height: calc(80vh - 50px);
+	position: absolute;
+	background-color: white;
+	display: none;
+}
+
+#carre {
+	background-color: white;
+/*	display: inline-flex;*/	
+	margin: 20px;
+
+}
+
+/*.tallacruz {
+	display: inline-block;
+	width: 100%;
+}*/
+
+.talcol {
+/*	width: 80%;*/
+	float: left;
+}
+
+#cruz {
+	height: 50px;
+	color: black;
+	float: right;
+}
+
+.opciones{
+	display: inline-flex;
+}
+
+#bicielect {
+	width: 40vw;
+}
+
+/*.lastallas {
+	height: 200px;
+}*/
+
+.unatalla {
+	float: right;
+	width: 60px;
+	height: 60px;
+	border: solid 1px #eee;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+}
+
+#cesta{
+	display: none;
 }
 
 }

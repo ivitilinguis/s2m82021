@@ -175,7 +175,7 @@ body {
 	overflow: hidden;
 }
 
-.compra {
+.producto {
 	display: inline-flex;
 	color:#666;
 	justify-content: space-between;
@@ -245,25 +245,39 @@ body {
 	right: 0;
 	width:40%;
 }
-.footer a {
+
+.footer h2 {
 	float: left;
 	height: 100%;
 	width: 33.3%;
-	padding:2px;
+	padding:10px 2px;
 	background-color: blue;	 
 	color:white;
 	text-align: center;
-	padding-top: 10px;
+	
 }
+
+
+
 .footer .persona {
 	background-color: white;	 
 	color:black;
 	border: solid 1px #eee;
 }
-.footer .precio {
+.precio {
+	background-color: black;	
+}
 
-	background-color: black;	 
+#eleccion {
+	display: none;
+}
 
+#cesta {
+	display: none;
+}
+
+#bicielect {
+	width: 10%;
 }
 
 }

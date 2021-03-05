@@ -1,3 +1,22 @@
+//FUNCIONES DE ELEGIR 
+
+
+document.getElementById('siesta').addEventListener('click',esto);
+function esto () {
+	var elege=document.getElementById('eleccion');
+	 	elege.style.display="block";
+	 }
+
+document.getElementById('cruz').addEventListener('click',aquello);
+function aquello () {
+	var elege=document.getElementById('eleccion');
+	 	elege.style.display="none";
+	 }
+
+
+var foto=document.getElementById('bicielect');
+
+
 // FUNCIONES DE MAIN
 
 var imagine=document.getElementById('imagota');
