@@ -1,20 +1,53 @@
-//FUNCIONES DE ELEGIR 
+ 
+//PRUEBA DESPLEGAR CON JS
 
+document.getElementById('hambur').addEventListener('click',funciona);
+	var i=0;
+	var lacru=document.getElementById('hambur');
+function funciona() {
+	
+	if (i==0) {
+		i=1;
+		document.getElementById('este').style.display="block";
+		lacru.className="fas fa-window-close"
+	} 
+	else {
+		i=0;
+		document.getElementById('este').style.display="none";
+		lacru.className="ico fas fa-bars";
+	}
 
-document.getElementById('siesta').addEventListener('click',esto);
-function esto () {
-	var elege=document.getElementById('eleccion');
-	 	elege.style.display="block";
-	 }
+}
 
-document.getElementById('cruz').addEventListener('click',aquello);
-function aquello () {
-	var elege=document.getElementById('eleccion');
-	 	elege.style.display="none";
-	 }
+document.getElementById('dosci').addEventListener('click',venga);
+	var x=0;
+function venga() {
+	if (x==0) {
+		x=1;
+		document.getElementById('izquierda').style.display="block";
+	} 
+	else {
+		x=0;
+		document.getElementById('izquierda').style.display="none";
+	}
 
+}
 
-var foto=document.getElementById('bicielect');
+document.getElementById('carro').addEventListener('click',vaya);
+	var y=0;
+function vaya() {
+	if (y==0) {
+		y=1;
+		document.getElementById('desplegado').style.display="block";
+		document.getElementById('desplegadodos').style.display="block";
+	} 
+	else {
+		y=0;
+		document.getElementById('desplegado').style.display="none";
+		document.getElementById('desplegadodos').style.display="none";
+	}
+
+}
 
 
 // FUNCIONES DE MAIN
@@ -92,6 +125,33 @@ bola[2].addEventListener('click',sorcetres);
 function sorcetres () {
 	cleta.src=sorce[2];
 }
+
+
+//FUNCIONES DE ELEGIR 
+
+
+document.getElementById('siesta').addEventListener('click',esto);
+function esto () {
+	var source=document.getElementById('bici').src;
+	var elege=document.getElementById('eleccion');
+	 	elege.style.display="block";
+	 	document.getElementById('siesta').style.display="none";
+	 	document.getElementById('cesta').style.display="block";
+	 	document.getElementById('bicielect').src=source;
+	 }
+
+document.getElementById('cruz').addEventListener('click',aquello);
+function aquello () {
+	var elege=document.getElementById('eleccion');
+	 	elege.style.display="none";
+	 	document.getElementById('siesta').style.display="block";
+	 	document.getElementById('cesta').style.display="none";
+	 }
+
+
+
+
+
 
 
 

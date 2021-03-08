@@ -1,10 +1,6 @@
 
 @media screen and (min-width: 980px){
 
-.check, .check2, .check3 {
-	display: none;
-}
-
 .arriba2{
 	display: none;
 }
@@ -64,6 +60,7 @@
 	font-size: 20px;
 	height: 400px;
 }
+
 #desplegadodos{
 	display: none;
 	position: absolute;
@@ -209,7 +206,7 @@ body {
 
 #bici {
 	display: block;
-	width: 50%;
+	width: 40%;
 	margin: -200px auto;
 }
 
@@ -250,34 +247,75 @@ body {
 	float: left;
 	height: 100%;
 	width: 33.3%;
-	padding:10px 2px;
-	background-color: blue;	 
+	padding:10px 2px; 
 	color:white;
-	text-align: center;
-	
+	text-align: center;	
 }
 
+.footer .venga {
+	background-color: blue;	
+}
 
 
 .footer .persona {
 	background-color: white;	 
 	color:black;
 	border: solid 1px #eee;
+	font-size: 17px;
+	padding-top: 17px;
 }
-.precio {
-	background-color: black;	
-}
+
 
 #eleccion {
 	display: none;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	height: calc(100vh - 50px);
+	width: 35%;
+	background-color: white;
+	border-left: solid 1px #ddd;
 }
 
-#cesta {
-	display: none;
+#carre {
+	padding:20px;
+}
+
+.talcol {
+/*	width: 80%;*/
+	float: left;
+}
+
+#cruz {
+	height: 50px;
+	color: black;
+	float: right;
+}
+
+.opciones{
+	display: inline-flex;
 }
 
 #bicielect {
-	width: 10%;
+	width: 20vw;
 }
+
+.unatalla {
+	float: right;
+	width: 60px;
+	height: 60px;
+	border: solid 1px #eee;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+}
+
+
+#cesta {
+	display: none;
+	font-size: 17px;
+	padding-top: 17px;
+}
+
 
 }
