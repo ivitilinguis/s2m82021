@@ -1,5 +1,27 @@
- 
+//JS Común
+
 //PRUEBA DESPLEGAR CON JS
+
+document.getElementById('pchambu').addEventListener('click',funciono);
+	var a=0;
+	var lacru=document.getElementById('hambur');
+function funciono() {
+	
+	if (a==0) {
+		a=1;
+		document.getElementById('otrom').style.display="block";
+		lacru.className="fas fa-window-close";
+		
+	} 
+	else {
+		a=0;
+		document.getElementById('otrom').style.display="none";
+		lacru.className="fas fa-bars";
+	}
+
+}
+
+//desplegar menú móvil
 
 document.getElementById('hambur').addEventListener('click',funciona);
 	var i=0;
@@ -14,7 +36,7 @@ function funciona() {
 	else {
 		i=0;
 		document.getElementById('este').style.display="none";
-		lacru.className="ico fas fa-bars";
+		lacru.className="fas fa-bars";
 	}
 
 }
@@ -50,7 +72,7 @@ function vaya() {
 }
 
 
-// FUNCIONES DE MAIN
+// Funciones img menú pc
 
 var imagine=document.getElementById('imagota');
 
@@ -128,7 +150,6 @@ function sorcetres () {
 
 
 //FUNCIONES DE ELEGIR 
-
 
 document.getElementById('siesta').addEventListener('click',esto);
 function esto () {

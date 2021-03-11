@@ -5,6 +5,33 @@
 	display: none;
 }
 
+#este {
+	display: block!important;
+}
+
+#pchambu {
+    position: absolute;
+    height: 50px;
+    width: 35px;
+    right: 64px;
+    top: 0;
+    opacity: 0;
+}
+
+@keyframes anim{
+    0% {color: red;} /*Amarillo*/
+   25% {color: orange;} /*Naranja*/
+   50% {color: lavender;} /*Negro*/
+   75% {color: blue;} /*Otra vez naranja*/
+  100% {color: green;} /*Otra vez amarillo*/
+}
+
+#person, #colorete {
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
 .arriba {
 	display: inline-block;
 	margin: 15px;
@@ -15,10 +42,6 @@
 
 .arriba:hover {
 	color:black;
-}
-
-#person {
-	color: orange;
 }
 
 .izquierda {
@@ -107,14 +130,37 @@
 	margin: 0 10px;
 }
 
+#otrom {
+	background-color: rgba(0,0,0,.75);
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	display: none;
+}
+
+#otromenu {
+	float: right;
+	height: 100vh;
+	width: 30%;
+	font-size: 23px;
+	line-height: 60px;
+	padding: 50px;
+	background-color: white;
+}
+
+#redes {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 25px;
+	padding-top: 10vh;
+}
+
 
 /*****+++++MAIN++++++*******/
 
 
-/*.section {
-	overflow: hidden;
-}
-*/
 #potaca {
 	background-image: url("../img/home.jpg");
 	text-align: center;
@@ -155,8 +201,19 @@
 	border:solid 1px white;
 }
 
+#flechitas {
+	display: inline-flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	font-size: 30px;
+	color: rgba(255,255,255,0.85);
+	padding: 0 30px;
+}
+
 .dots {
-	padding-top: 30vh;
+	padding-top: 22vh;
 	color: rgba(255,255,255,0.5);
 	font-size: 8px;
 	}
@@ -308,6 +365,11 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	margin: 5px;
+}
+
+#siesta {
+	font-size: 17px;
+	padding: 17px;
 }
 
 
