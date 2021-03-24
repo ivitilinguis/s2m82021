@@ -1,0 +1,232 @@
+
+@media screen and (min-width: 980px){
+
+
+header {
+	padding: 10px;
+}
+
+.yo {
+	color: silver;
+}
+
+
+#proyectos {
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim{
+    0% {color: red;} /*Amarillo*/
+   17% {color: orange;} /*Naranja*/
+   34% {color: gold;} /*Negro*/
+   51% {color: silver;} /*Otra vez naranja*/
+  68% {color: gold;} /*Otra vez amarillo*/
+  89% {color: orange;}
+  100% {color: red;}
+}
+
+#nav {
+	vertical-align: bottom;
+}
+
+#nav li{
+	display: inline-block;
+	padding:20px;
+}
+
+#proy {
+	display: none;
+	position: absolute;
+	background-color: white;
+	opacity: 0.9;
+	border: solid 1px #999;
+	width: 250px;
+	margin-top: 20px; 
+}
+
+/****************BODY*************/
+
+.jover:hover {
+	cursor: url('../img/cursorpeq.png'), pointer;
+
+}
+
+
+#lospro {
+	width: 100%;
+}
+
+#mispro {
+	float: left;
+	width: 100%;
+}
+
+
+.cadapro {
+	text-align: center;
+	height: 40vh;
+	background-position: center;
+	margin: 1px;
+}
+
+.cadamipro {
+	float: left;
+	height: 40vh;
+	text-align: center;
+	margin: 1px;
+}
+
+#quien {
+	background-image: url(../img/panora.jpg);
+	background-position-y: -5px;
+}
+
+#personi {
+	background-image: url(../img/tipo.jpg);
+
+}
+
+#oriola {
+	background-image: url(../img/cfpod.jpg);
+	background-position-y: 0px;
+	}
+
+.pasti {
+	background-color: rgba(0,0,0,.5);
+	height: 40vh;
+	width: 100%;
+	margin: auto;
+	}
+
+.mipasti {
+	background-color: rgba(0,0,0,.5);
+	height: 40vh;
+	width: 100%;
+	margin: auto;
+}
+
+#nescafe {
+	background-image: url(../img/nescafe.jpg);
+	background-size: cover;
+	background-position-y: -200px;
+	width: calc(40% - 2px);
+}
+
+#triatlon {
+	background-image: url(../img/triatlon.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(30% - 2px);
+}
+
+#rediseno {
+	background-image: url(../img/rediseno.jpg);
+	background-size: cover;
+	width: calc(30% - 2px);
+}
+
+#web {
+	background-image: url(../img/web.jpg);
+	background-size: cover;
+	background-position-y: -10px;
+	width: calc(60% - 2px);
+}
+
+#locuritas {
+	background-image: url(../img/loco.png);
+	background-size: cover;
+	background-position-y: -10px;
+	width: calc(40% - 2px);
+
+}
+
+#libro {
+	background-image: url(../img/libro.jpg);
+	background-size: cover;	
+	width: calc(45% - 2px);
+}
+
+#birra {
+	background-image: url(../img/piwo2.svg);
+	background-size: cover;
+	background-position-y: 70px;
+	width: calc(55% - 2px);
+}
+
+#torti {
+	background-image: url(../img/torti.jpg);
+	background-size: cover;
+	background-position-y: -10px;
+	width: calc(40% - 2px);
+}
+
+#mic {
+	background-image: url(../img/MIC1.jpg);
+	background-size: cover;
+	width: calc(60% - 2px);
+}
+
+#carnet {
+	background-image: url(../img/carnet.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(40% - 2px);
+}
+
+#rifa {
+	background-image: url(../img/rifa.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(25% - 2px);
+}
+
+#meteo {
+	background-image: url(../img/meteorihuela.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(35% - 2px);
+}
+
+#patro {
+	background-image: url(../img/patrocinadores.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(30% - 2px);
+}
+
+#covid {
+	background-image: url(../img/covid.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(30% - 2px);
+}
+
+#fibra {
+	background-image: url(../img/Oriolfibra.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(40% - 2px);
+}
+
+#recicla {
+	background-image: url(../img/Envases.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(50% - 2px);
+}
+
+#plantilla {
+	background-image: url(../img/Plantilla2.jpg);
+	background-size: cover;
+	background-position-y: -100px;
+	width: calc(50% - 2px);
+}
+
+* {
+	color:orange;
+}
+
+
+}

@@ -1,0 +1,99 @@
+@media screen and (max-width: 480px){
+
+
+header {
+	padding: 10px;
+}
+
+.yo {
+	color: silver;
+}
+
+
+#proyectos {
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim{
+    0% {color: red;} /*Amarillo*/
+   17% {color: orange;} /*Naranja*/
+   34% {color: gold;} /*Negro*/
+   51% {color: silver;} /*Otra vez naranja*/
+  68% {color: gold;} /*Otra vez amarillo*/
+  89% {color: orange;}
+  100% {color: red;}
+}
+
+#nav {
+	vertical-align: bottom;
+}
+
+#nav li{
+	display: inline-block;
+	padding:20px;
+}
+
+#proy {
+	display: none;
+	position: absolute;
+	background-color: white;
+	opacity: 0.9;
+	border: solid 1px #999;
+	width: 250px;
+	margin-top: 20px; 
+}
+
+/****************BODY*************/
+
+.jover:hover {
+	cursor: url('../img/cursorpeq.png'), pointer;
+
+}
+
+
+#lospro {
+	width: 100%;
+}
+
+.cadapro {
+	text-align: center;
+	height: calc(25vh - 10px);
+	/*padding: 20px;
+	color:#bbb;
+	width: 50%;
+	background-size: contain;
+	background-repeat: no-repeat;*/
+	background-position: center;
+	background-position-y: -40px;
+	margin-top: 10px; 
+}
+
+#quien {
+	background-image: url(../img/panora.jpg) 
+}
+
+#personi {
+	background-image: url(../img/tipo.jpg);
+
+}
+
+#oriola {
+	background-image: url(../img/cfpod.jpg);
+	background-position-y: 0px;
+	}
+
+.pasti {
+	background-color: rgba(255,255,255,0.85);
+	height: 25vh;
+	width: 30%;
+	margin: auto;
+	}
+
+* {
+	color:orange;
+}
+
+
+}
