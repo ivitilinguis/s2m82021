@@ -1,0 +1,108 @@
+
+ @font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../fuentes/CaviarDreams-webfont.woff') format('woff'),
+         url('../fuentes/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../fuentes/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('../fuentes/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'caviar_dreamsbold';
+	color:red;
+	scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
+
+body {
+	height: 100vh;
+/*	background: linear-gradient(to right, #e90000, #005b97);*/
+}
+
+header {
+	/*float: left;*/
+	display: flex;
+	justify-content: space-between;
+	/*width: 100%;*/
+ 	background-color: rgba(255,255,255,.5);
+	height: 15vh;
+}
+
+#gradient {
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #e90000, #005b97);
+}
+
+
+
+section {
+	height: 75vh;
+}
+
+#nav {
+	z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,.90);
+	width: calc(100% - 20px);
+	top:16vh;
+	height: 83vh;
+	color: #e90000;
+	border: solid 1px;
+}
+
+
+.cadapro {
+	text-align: center;
+	height: calc(25vh - 1px);
+	background-position: center;
+	margin: 1px;
+}
+
+.pasti {
+	/*background-color: rgba(0,0,0,.5);*/
+	height: calc(25vh - 1px);
+	width: 100%;
+	margin: auto;
+	font-size: 20px;
+	padding: 50px;
+	}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+ul, li {
+    list-style: none;
+}
+
+section {
+	height: 75vh;
+}
+
+footer {
+display: inline-flex;
+justify-content: space-between;
+width: 100%;
+/*height: 10vh;*/
+padding: 10px;
+}
+
+
