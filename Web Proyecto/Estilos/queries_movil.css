@@ -4,6 +4,7 @@
 /*+++++++SPLASH++++++++*/
 
 #splash {
+	position:absolute;
     height: 100vh;
     background-color: rgba(0,0,0,.35);
     background-image: url(../img/fondospl1.jpg);
@@ -27,8 +28,8 @@
 }
 }
 
-#splash h1 {
-	margin-top: 30vh;
+#splash p {
+	margin-top: 60vh;
 	color: white;
 }
 
@@ -71,29 +72,22 @@ section {
 	padding:20px;
 }
 
-.iconos {
-	padding: 10px;
-}
-
-.iconos a:first-child{
+#grup {
 	display: none;
 }
+
+.iconos {
+	padding: 20px 10px;
+    float: right;
+    font-size: 14px;
+}
+
 
 .iconos li {
 display: inline-block;
-margin: 0 8px;
+margin: 0 5px;
 }
 
-
-#grup {
-	display: none;
-	background-color: white;
-	opacity: 0.9;
-	border: solid 1px;
-	width: 250px;
-	margin-top: 20px; 
-	z-index: 10;	
-}
 
 /****************BODY*************/
 
@@ -156,26 +150,57 @@ margin: 0 8px;
 
 /*+++++++++++++++++GRUPOS++++++++++++++++++*/
 
-#filtros {
+#asino {
 	padding:10px;
-	background-color: rgba(255,255,255,.75);
-	margin: 5px;
+	height: 16vh;
+	}
+
+#y {
+	margin:10px;
 }
 
 .filtro {
-	display: inline-flex;
-	align-content: space-between;
-	margin: 10px;
-	width: 25%;
-}
-
-.opcion {
 	display: none;
+	margin: 5px;
 }
 
-.botfiltro {
-	display: inline-block;
+#filtros {
+	margin: 10px;
 }
+
+#dia {
+    position: absolute;
+    top: 21%;
+    left: 30%;
+    background-color: rgba(255, 255, 255);
+    border: 1px solid red;
+    padding: 10px;
+    z-index: 20;
+    width: 20%;
+}
+
+#hora {
+	position: absolute;
+    top: 21%;
+    left: 51%;
+    background-color: rgba(255, 255, 255);
+    border: 1px solid red;
+    padding: 10px;
+    z-index: 20;
+    width: 20%;
+}
+
+#escenario {
+	position: absolute;
+    top: 21%;
+    left: 72%;
+    background-color: rgba(255, 255, 255);
+    border: 1px solid red;
+    padding: 10px;
+    z-index: 20;
+    width: 20%;
+}
+
 
 .grupis {
     height: calc(80vh + 3px);
@@ -231,9 +256,8 @@ margin: 0 8px;
 }
 
 #calavento {
-	background-image: url(../img/triatlon.jpg);
+	background-image: url(../img/calavento1.jpg);
 	background-size: cover;
-	background-position-y: -100px;
 }
 
 #triatcont {
@@ -256,20 +280,20 @@ margin: 0 8px;
 	height: 80%;
 }
 #doran {
-	background-image: url(../img/rediseno.jpg);
+	background-image: url(../img/dorian1.jpg);
 	background-size: cover;
 
 }
 
 #mafalda {
-	background-image: url(../img/web.jpg);
+	background-image: url(../img/mafalda1.jpg);
 	background-size: cover;
 	background-position-y: -10px;
 
 }
 
 #lala {
-	background-image: url(../img/loco.png);
+	background-image: url(../img/lalaloveyou1.jpeg);
 	background-size: cover;
 	background-position-y: -10px;
 
@@ -277,20 +301,117 @@ margin: 0 8px;
 }
 
 #luzver {
-	background-image: url(../img/libro.jpg);
+	background-image: url(../img/luz1.jpg);
 	background-size: cover;	
 }
 
 #amor {
-	background-image: url(../img/piwo2.svg);
+	background-image: url(../img/TriangulodeAmorBizarro1.jpg);
 	background-size: cover;
-	background-position-y: 70px;
 }
 
 #nachin {
-	background-image: url(../img/torti.jpg);
+	background-image: url(../img/nachovegas1.jpg);
 	background-size: cover;
-	background-position-y: -10px;
+}
+
+#lesbian {
+	background-image: url(../img/lesbian1.jpg);
+	background-size: cover;
+}
+
+#vetusta {
+	background-image: url(../img/morla1.jpg);
+	background-size: cover;
+}
+#lori {
+	background-image: url(../img/lori1.jpg);
+	background-size: cover;
+}
+#planetas {
+	background-image: url(../img/planeta1.jpg);
+	background-size: cover;
+}
+#losyos {
+	background-image: url(../img/ivanes1.jpg);
+	background-size: cover;
+}
+#izal {
+	background-image: url(../img/izal1.jpg);
+	background-size: cover;
+}
+#miss {
+	background-image: url(../img/cafeina1.jpg);
+	background-size: cover;
+}
+#subnor {
+	background-image: url(../img/subnor1.jpg);
+	background-size: cover;
+}
+#sidonie {
+	background-image: url(../img/sidoine1.jpg);
+	background-size: cover;
+}
+#habiroja {
+	background-image: url(../img/habi1.jpg);
+	background-size: cover;
+}
+#casazul {
+	background-image: url(../img/casazul1.jpg);
+	background-size: cover;
+}
+#columpio {
+	background-image: url(../img/columpio1.jpg);
+	background-size: cover;
+}
+#botis {
+	background-image: url(../img/botis1.jpeg);
+	background-size: cover;
+}
+#australian {
+	background-image: url(../img/austra1.jpg);
+	background-size: cover;
+}
+#carol {
+	background-image: url(../img/caro1.jpg);
+	background-size: cover;
+}
+#mutantes {
+	background-image: url(../img/mutantes1.jpg);
+	background-size: cover;
+}
+
+#torti {
+	background-image: url(../img/torti1.jpg);
+	background-size: cover;
+}
+#suecia {
+	background-image: url(../img/suecia1.jpg);
+	background-size: cover;
+}
+#hinds {
+	background-image: url(../img/hind1.jpg);
+	background-size: cover;
+}
+#buena {
+	background-image: url(../img/buena1.jpg);
+	background-size: cover;
+}
+#chino {
+	background-image: url(../img/chino1.jpg);
+	background-size: cover;
+}
+#fresa {
+	background-image: url(../img/fresa1.jpg);
+	background-size: cover;
+}
+#gusano {
+	background-image: url(../img/gusano1.jpg);
+	background-size: cover;
+}
+#novedades {
+	background-image: url(../img/novedades1.jpg);
+	background-size: cover;
 }
 
 #laflecha {
@@ -492,7 +613,7 @@ footer .fa-camera {
 	transition-duration: .20s, .20s;
 }
 
-/*++++++++++++++++++++LOGIN+++++++++++++++++++*/
+/*++++++++++++++++++++ELFESTI+++++++++++++++++++*/
 
 /*#alguien {
 background-image: url(../img/festi.jpg);
@@ -536,14 +657,17 @@ top: 15vh;*/
  overflow: hidden;
  }
 
-/*++++++++++++++++++++ELFESTI+++++++++++++++++++*/
+/*++++++++++++++++++++MENSAJE+++++++++++++++++++*/
 
 #conv {
 	margin: 10px;
+	padding: 10px;
 	height: 50vh;
 	background-color: rgba(0,0,0,.15);
 	border-radius: 10px;
+	font-size: 10px;
 }
+
 
 #send {
 	margin: 10px;
@@ -574,11 +698,15 @@ top: 15vh;*/
 	margin-top: 5vh;
 	display: inline-flex;
 	overflow-x: scroll;
+	background: linear-gradient(to right, #e90000, #005b97);
+	height: 20vh;
 }
 
 #minivideos video {
-	width: 40%;
-	margin: 2px;
-}
+	/*width: 30%;*/
+	height: 60%;
+	margin: auto;
+/*	margin: 5px;
+}*/
 
 }

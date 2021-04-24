@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Alterna Fest</title>
+	<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script> 
+	<link rel="stylesheet" type="text/css" href="Estilos/styles.css">
+	<link rel="stylesheet" type="text/css" href="Estilos/queries_movil.css">
+	<link rel="stylesheet" type="text/css" href="Estilos/queries_tablet.css">
+	<link rel="stylesheet" type="text/css" href="Estilos/queries_pc.css">
+	<link rel="shortcut icon" type="image/svg" href="img/icon.svg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+		<header>
+		<div id="imageder"><a href="index.html"><img id="logoheader" src="img/Principal.svg"></a>
+		</div>
+		<nav id="nav">
+			<li><a href="festi.html">¿Qué es Alterna Fest?</a></li>
+			<li><div class="jover" id="grupos">Grupos</div>
+				<ul id="grup">
+					<li><a href="nacional.html">Día 1</a></li>
+					<li><a href="nacional.html">Día 2</a></li>
+					<li><a href="nacional.html">Día 3</a></li>
+					<li><a href="nacional.html">Día 4</a></li>
+					<li><a href="nacional.html">Todos</a></li>
+				</ul>
+			</li>
+			<li><a href="directo.html">Festival en directo</a></li>
+			<li><a href="repro.html">Lista de reproducción</a></li>
+			<li><a href="#">Información del festival</a></li>
+			</nav>
+			<ul class="iconos">
+			<a href="#"><li><i class="ico fas fa-search"></i></li></a>
+			<a href="login.html"><li><i class="ico far fa-user"></i></li></a>
+			<a href="compra.html"><li><i class="ico fas fa-shopping-cart"></i></li></a>
+			<li><i id="hambur" class="ico fas fa-bars"></i></li>
+		</ul>	
+		
+	</header>
+	<aside id="asino">
+		<div id="y">
+			<h2>Filtrar por</h2>
+		</div>
+
+		<div id="filtros">
+				
+				<h3 class="botfiltro" id="botdia">Día</h3>
+				<h3 class="botfiltro" id="bothora">Hora</h3>
+				<h3 class="botfiltro" id="botesce">Escenario</h3>
+			<div>
+				<div class="filtro" id="dia">
+					<div id="jour" class="opcion">
+						<h6>Día 1</h6>
+						<input id="dia1" type="checkbox" checked value="Día 1">
+						<h6>Día 2</h6>
+						<input id="dia2" type="checkbox" checked value="Día 2">
+						<h6>Día 3</h6>
+						<input id="dia3" type="checkbox" checked value="Día 3">
+						<h6>Día 4</h6>
+						<input id="dia4" type="checkbox" checked value="Día 4">
+					</div>
+				</div>
+				<div class="filtro" id="hora">
+					<div id="heure" class="opcion">
+						<h6>16hs</h6>
+						<input id="hora1" type="checkbox" checked value="16">
+						<h6>18hs</h6>
+						<input id="hora2" type="checkbox" checked value="18">
+						<h6>20hs</h6>
+						<input id="hora3" type="checkbox" checked value="20">
+						<h6>22hs</h6>
+						<input id="hora4" type="checkbox" checked value="22">
+					</div>
+				</div>
+				<div class="filtro" id="escenario">		
+					<div id="scenario" class="opcion">
+						<h6>Escenario 1</h6>
+						<input id="escenario1" type="checkbox" checked value="on">
+						<h6>Escenario 2</h6>
+						<input id="escenario2" type="checkbox" checked value="esc2">
+					</div>	
+				</div>
+			</div>
+		</div>
+	</aside>
+
+<section id="lasesion" class="sectioncorto">
+		<h2 class="dia">Día 1</h2>
+		<div class="grupis">
+			<div class="jover cadamipro esc1 16 toca1" id="napoleon">
+				<div class="mipasti">
+					<h1>Napoleón solo</h1>
+					<p>16hs</p>
+					<p>Escenario 1</p>
+					<p>Día 1</p>
+				</div>
+			</div>
+			<div id="nescontinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq1" class="flecha fas fa-chevron-left"></i>
+				<img src="img/Nescaf.png" id="nesimg">
+				<i id="flechader1" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 18 toca1" id="calavento">
+				<div class="mipasti">
+					<h1>Cala Vento</h1>
+					<p>18hs</p>
+					<p>Escenario 1</p>
+					<p>Día 1</p>
+				</div>
+			</div>
+			<div id="triatloninv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq2" class="flecha fas fa-chevron-left"></i>
+				<img src="img/jerarquica2.png" id="trimg">
+				<i id="flechader2" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 20 toca1" id="doran">
+				<div class="mipasti">
+					<h1>Doran</h1>
+					<p>20hs</p>
+					<p>Escenario 1</p>
+					<p>Día 1</p>
+				</div>
+			</div>
+			<div id="redinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq3" class="flecha fas fa-chevron-left"></i>
+				<img src="img/dayo1.jpg" id="dayoimg">
+				<i id="flechader3" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 22 toca1" id="mafalda">
+						<div class="mipasti">
+						<h1>Mafalda</h1>
+						<p>22hs</p>
+					<p>Escenario 1</p>
+					<p>Día 1</p>
+					</div>
+			</div>
+			<div class="jover cadamipro esc2 16 toca1" id="lala">
+				<div class="mipasti">
+					<h1>La La Love you</h1>
+					<p>16hs</p>
+					<p>Escenario 2</p>
+					<p>Día 1</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 18 toca1" id="luzver">
+				<div class="mipasti">
+					<h1>Luz Verdadera</h1>
+					<p>18hs</p>
+					<p>Escenario 2</p>
+					<p>Día 1</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 20 toca1" id="amor">
+				<div class="mipasti">
+					<h1>Triángulo de amor bizarro</h1>
+					<p>20hs</p>
+					<p>Escenario 2</p>
+					<p>Día 1</p>
+				</div>
+			</div>
+				<div class="jover cadamipro esc2 22 toca1" id="nachin">
+				<div class="mipasti">
+					<h1>Nacho Vegas</h1>
+					<p>22hs</p>
+					<p>Escenario 2</p>
+					<p>Día 1</p>
+				</div>
+			</div>
+		</div>
+
+
+	<h2 class="dia">Día 2</h2>
+		<div class="grupis">
+			<div class="jover cadamipro esc1 16 toca2" id="lesbian">
+				<div class="mipasti">
+					<h1>Love of Lesbian</h1>
+					<p>16hs</p>
+					<p>Escenario 1</p>
+					<p>Día 2</p>
+				</div>
+			</div>
+			<div id="lesbinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq1" class="flecha fas fa-chevron-left"></i>
+				<img src="img/Nescaf.png" id="nesimg">
+				<i id="flechader1" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 18 toca2" id="vetusta">
+				<div class="mipasti">
+					<h1>Vetusta Morla</h1>
+					<p>18hs</p>
+					<p>Escenario 1</p>
+					<p>Día 2</p>
+				</div>
+			</div>
+			
+			<div class="jover cadamipro esc1 20 toca2" id="lori">
+				<div class="mipasti">
+					<h1>Lori Meyers</h1>
+					<p>20hs</p>
+					<p>Escenario 1</p>
+					<p>Día 2</p>
+				</div>
+			</div>
+			<div id="lorinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq3" class="flecha fas fa-chevron-left"></i>
+				<img src="img/dayo1.jpg" id="dayoimg">
+				<i id="flechader3" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 22	 toca2" id="planetas">
+						<div class="mipasti">
+						<h1>Los planetas</h1>
+						<p>22hs</p>
+					<p>Escenario 1</p>
+					<p>Día 2</p>
+					</div>
+			</div>
+			<div class="jover cadamipro esc2 16 toca2" id="losyos">
+				<div class="mipasti">
+					<h1>Los Ivanes Barbagallos</h1>
+					<p>16hs</p>
+					<p>Escenario 2</p>
+					<p>Día 2</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 18 toca2" id="izal">
+				<div class="mipasti">
+					<h1>IZAL</h1>
+						<p>18hs</p>
+					<p>Escenario 2</p>
+					<p>Día 2</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 20 toca2" id="miss">
+				<div class="mipasti">
+					<h1>Miss Cafeína</h1>
+						<p>20hs</p>
+					<p>Escenario 2</p>
+					<p>Día 2</p>
+				</div>
+			</div>
+				<div class="jover cadamipro esc2 22 toca2" id="subnor">
+				<div class="mipasti">
+					<h1>Los subnormales</h1>
+					<p>22hs</p>
+					<p>Escenario 2</p>
+					<p>Día 2</p>
+				</div>
+			</div>
+		</div>
+	<h2 class="dia">Día 3</h2>
+		<div class="grupis">
+			<div class="jover cadamipro esc1 16 toca3" id="sidonie">
+				<div class="mipasti">
+					<h1>Sidonie</h1>
+					<p>16hs</p>
+					<p>Escenario 1</p>
+					<p>Día 3</p>
+				</div>
+			</div>
+			<div id="sidainv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq1" class="flecha fas fa-chevron-left"></i>
+				<img src="img/Nescaf.png" id="nesimg">
+				<i id="flechader1" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 18 toca3" id="habiroja">
+				<div class="mipasti">
+					<h1>La habitación roja</h1>
+					<p>18hs</p>
+					<p>Escenario 1</p>
+					<p>Día 3</p>
+				</div>
+			</div>
+			<div id="habiroinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq2" class="flecha fas fa-chevron-left"></i>
+				<img src="img/jerarquica2.png" id="trimg">
+				<i id="flechader2" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 20 toca3" id="casazul">
+				<div class="mipasti">
+					<h1>La casa azul</h1>
+					<p>20hs</p>
+					<p>Escenario 1</p>
+					<p>Día 3</p>
+				</div>
+			</div>
+			<div id="casazulinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq3" class="flecha fas fa-chevron-left"></i>
+				<img src="img/dayo1.jpg" id="dayoimg">
+				<i id="flechader3" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 22 toca3" id="columpio">
+						<div class="mipasti">
+						<h1>El columpio asesino</h1>
+						<p>22hs</p>
+					<p>Escenario 1</p>
+					<p>Día 3</p>
+					</div>
+			</div>
+			<div class="jover cadamipro esc2 16 toca3" id="botis">
+				<div class="mipasti">
+					<h1>El botitas y la marrona</h1>
+					<p>16hs</p>
+					<p>Escenario 2</p>
+					<p>Día 3</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 18 toca3" id="australian">
+				<div class="mipasti">
+					<h1>Australian Blonde</h1>
+						<p>18hs</p>
+					<p>Escenario 2</p>
+					<p>Día 3</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 20 toca3" id="carol">
+				<div class="mipasti">
+					<h1>Carolina Durante</h1>
+						<p>20hs</p>
+					<p>Escenario 2</p>
+					<p>Día 3</p>
+				</div>
+			</div>
+				<div class="jover cadamipro esc2 22 toca3" id="mutantes">
+				<div class="mipasti">
+					<h1>Niños mutantes</h1>
+						<p>22hs</p>
+					<p>Escenario 2</p>
+					<p>Día 3</p>
+				</div>
+			</div>
+		</div>
+
+	<h2 class="dia">Día 4</h2>
+		<div id="grupis">
+			<div class="jover cadamipro esc1 16 toca4" id="torti">
+				<div class="mipasti">
+					<h1>Tortilla de patatas</h1>
+					<p>16hs</p>
+					<p>Escenario 1</p>
+					<p>Día 4</p>
+				</div>
+			</div>
+			<div id="tortinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq1" class="flecha fas fa-chevron-left"></i>
+				<img src="img/Nescaf.png" id="nesimg">
+				<i id="flechader1" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 18 toca4" id="suecia">
+				<div class="mipasti">
+					<h1>Viva Suecia</h1>
+					<p>18hs</p>
+					<p>Escenario 1</p>
+					<p>Día 4</p>
+				</div>
+			</div>
+			<div id="suecinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq2" class="flecha fas fa-chevron-left"></i>
+				<img src="img/jerarquica2.png" id="trimg">
+				<i id="flechader2" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 20 toca4" id="hinds">
+				<div class="mipasti">
+					<h1>Hinds</h1>
+					<p>20hs</p>
+					<p>Escenario 1</p>
+					<p>Día 4</p>
+				</div>
+			</div>
+			<div id="hindsinv" class="none">
+				<i class="cruz fas fa-times"></i>
+				<i id="flechaizq3" class="flecha fas fa-chevron-left"></i>
+				<img src="img/dayo1.jpg" id="dayoimg">
+				<i id="flechader3" class="flecha fas fa-chevron-right"></i>
+			</div>
+			<div class="jover cadamipro esc1 22 toca4" id="buena">
+						<div class="mipasti">
+						<h1>La buena vida</h1>
+						<p>22hs</p>
+					<p>Escenario 1</p>
+					<p>Día 4</p>
+					</div>
+			</div>
+			<div class="jover cadamipro esc2 16 toca4" id="chino">
+				<div class="mipasti">
+					<h1>Sr. Chinarro</h1>
+					<p>16hs</p>
+					<p>Escenario 2</p>
+					<p>Día 4</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 18 toca4" id="fresa">
+				<div class="mipasti">
+					<h1>Los fresones rebeldes</h1>
+					<p>18hs</p>
+					<p>Escenario 2</p>
+					<p>Día 4</p>
+				</div>
+			</div>
+			<div class="jover cadamipro esc2 20 toca4" id="gusano">
+				<div class="mipasti">
+					<h1>El niño gusano</h1>
+					<p>20hs</p>
+					<p>Escenario 2</p>
+					<p>Día 4</p>
+				</div>
+			</div>
+				<div class="jover cadamipro esc2 22 toca4" id="novedades">
+				<div class="mipasti">
+					<h1>Novedades Carminha</h1>
+					<p>22hs</p>
+					<p>Escenario 2</p>
+					<p>Día 4</p>
+				</div>
+			</div>
+		</div>
+		<div id="laflecha"><img src="img/icon.svg"></div>
+	</section>
+<footer>
+			<li><a href="legal.html">Legal</a></li>
+			<li><a href="http://ivanbarbagallo.blogspot.com/" target="_blank">Mi blog</a></li>
+			<li>Mail: iv.n@live.com.ar</li>
+			<li><a href="contacto.html">Contacto</a></li>
+	</footer>
+<script type="text/javascript" language="javascript" src="javascript.js"></script>
+<script type="text/javascript" language="javascript" src="javascriptfiltros.js"></script>
+
+	</body>
+</html>
