@@ -30,12 +30,13 @@ function hola () {
 	function display () {
 		if (a==0) {
 		a=1;
-		document.getElementById('nav').style.display=('block');	
+		document.getElementById('nav').style.display=('block');
+		document.getElementById('hambur').className="fas fa-window-close";	
 	}
 	else {
 		a=0;
 		document.getElementById('nav').style.display=('none');
-		
+		document.getElementById('hambur').className="fas fa-bars";		
 	} }
 
 

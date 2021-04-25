@@ -21,7 +21,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'caviar_dreamsbold';
-	color:red;
+	color: #ff6700;
 	scrollbar-width: none;
 }
 
@@ -43,6 +43,71 @@ header {
  	background-color: rgba(255,255,255,.5);
 	height: 15vh;
 }
+
+header span {
+	width: 10px;
+/*	height: 15vh;*/
+	background-color: black;
+	position: absolute;
+    top: 0;
+}
+
+#sp2 {
+	left: 20%;
+	animation-name: headi;
+    animation-duration: 2s;
+    height: 0vh;
+}
+
+#sp3 {
+	left: 40%;
+	animation-name: heado;
+    animation-duration: 2s;
+    height: 0vh;
+}
+
+#sp4 {
+	left: 60%;
+	animation-name: heade;
+    animation-duration: 2s;
+    height: 0vh;
+}
+
+#sp5 {
+	left: 80%;
+	animation-name: headu;
+    animation-duration: 2s;
+    height: 0vh;
+}
+
+@keyframes headi{
+    /*0% {height: 5vh;} 
+    33% {height: 10vh;}
+    66% {height: 15vh;}*/
+   99% {height: 15vh;}
+}
+
+@keyframes heado{
+    /*0% {height: 5vh;} 
+    33% {height: 10vh;}
+    66% {height: 15vh;}*/
+   99% {height: 25vh;}
+}
+@keyframes heade{
+    /*0% {height: 5vh;} 
+    33% {height: 10vh;}
+    66% {height: 15vh;}*/
+   99% {height: 10vh;}
+}
+
+@keyframes headu{
+    /*0% {height: 5vh;} 
+    33% {height: 10vh;}
+    66% {height: 15vh;}*/
+   99% {height: 15vh;}
+}
+
+
 
 #gradient {
 	width: 100%;

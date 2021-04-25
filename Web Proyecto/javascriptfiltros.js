@@ -47,7 +47,6 @@ console.log('escena1');
 function filtroesce1 () { if (j==0) {
 
 	for (var i=0; i<escena1.length; i++) {
-	
 	escena1[i].style.display="none";
 	// escena1[1].style.display="none";
 	// escena1[2].style.display="none";
