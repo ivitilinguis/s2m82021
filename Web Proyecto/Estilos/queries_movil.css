@@ -659,6 +659,10 @@ top: 15vh;*/
 	background-color: rgba(0,0,0,.15);
 }
 
+#mande {
+	color:black;
+}
+
 .quien:hover {
 	font-size: 12px;
 }
@@ -691,10 +695,30 @@ top: 15vh;*/
 
 /*++++++++++++++++++++COMPRA+++++++++++++++++++*/
 
-#lasesion {
+.sesiona {
 	height: 75vh;
 	background-color: black;
 	color:white;
+}
+
+/*++++++++++++++++++++CONTACTO+++++++++++++++++++*/
+
+#contacta {
+	color: black;
+}
+
+#contacta input {
+	height: 40px;
+	margin: 10px;
+	width: 90vw;
+}
+#problema {
+	height: 100px!important;
+}
+
+#contacta p, #contacta a {
+	font-size: 15px;
+	margin: 10px;
 }
 
 }
