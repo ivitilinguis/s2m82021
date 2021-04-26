@@ -52,7 +52,7 @@ section {
 }
 
 #logoheader {
-	width: 65%;
+	width: 80%;
 }
 
 
@@ -81,7 +81,12 @@ section {
 .iconos {
 	padding: 20px 10px;
     float: right;
-    font-size: 14px;
+    font-size: 20px;
+    margin: auto;
+}
+
+#hambur {
+	height: 25px;
 }
 
 
@@ -141,8 +146,6 @@ margin: 0 5px;
 	background-size: cover;
 	}
 
-
-
 .mipasti {
 	background-color: rgba(0,0,0,.4);
 	height: 20vh;
@@ -179,13 +182,9 @@ footer {
 /*+++++++++++++++++GRUPOS++++++++++++++++++*/
 
 #asino {
-	padding:10px;
+	padding:0 10px;
 	height: 16vh;
 	}
-
-#y {
-	margin:10px;
-}
 
 .filtro {
 	display: none;
@@ -231,15 +230,15 @@ footer {
 
 
 .grupis {
-    height: calc(80vh + 3px);
+    /*height: calc(80vh + 3px);*/
     width: 100vw;
 }
 
 .dia {
 	font-size: 50px;
-	color:black;
+	/*color:black;
 	text-align: center;
-	padding: 50px;
+	padding: 50px;*/
 }
 
 #napoleon {
@@ -484,8 +483,13 @@ aside {
 	overflow-x: scroll;
 }
 
-.sectioncorto {
+.sectioncorta {
 	height: 60vh;
+}
+.sectioncorto {
+	background-color: black;
+	height: 60vh;
+	color:white;
 }
 
 #slider {
@@ -592,8 +596,7 @@ background-image: url(../img/festi.jpg);
 }*/
 
 #negro {
-	background-color: rgba(0,0,0,.3);
-    height: 37vh;
+/*	background-color: rgba(0,0,0,.3);*/
     width: 100%;
 }
 
@@ -612,8 +615,8 @@ background-image: url(../img/festi.jpg);
 }
 
 #negro h2 {
-	padding: 170px 10px 0px;
-	font-size: 20px;
+	padding: 30px 10px 0px;
+	font-size: 40px;
 	text-align: right;
 	color: white;
 }
@@ -638,6 +641,7 @@ top: 15vh;*/
 	background-color: rgba(0,0,0,.15);
 	border-radius: 10px;
 	font-size: 10px;
+	color:#b42f41;
 }
 
 
@@ -674,18 +678,23 @@ top: 15vh;*/
 }
 
 #minivideos {
-	margin-top: 5vh;
 	display: inline-flex;
 	overflow-x: scroll;
-	background: linear-gradient(to right, #e90000, #005b97);
-	height: 20vh;
+	height: 30vh;
 }
 
 #minivideos video {
 	/*width: 30%;*/
 	height: 60%;
-	margin: auto;
-/*	margin: 5px;
-}*/
+	margin: auto;}
+
+
+/*++++++++++++++++++++COMPRA+++++++++++++++++++*/
+
+#lasesion {
+	height: 75vh;
+	background-color: black;
+	color:white;
+}
 
 }
