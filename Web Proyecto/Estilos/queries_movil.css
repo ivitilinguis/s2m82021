@@ -28,7 +28,6 @@
     margin-top: 10%;
     padding: 20px;
 }
-}
 
 #splash p {
 	margin-top: 60vh;
@@ -68,6 +67,10 @@ section {
    100% {color: #e90000;}
 }
 
+#nav {
+	font-size: 1em;
+	text-align: center;
+}
 
 #nav li{
 /*	display: inline-block;*/
@@ -95,7 +98,9 @@ display: inline-block;
 margin: 0 5px;
 }
 
-
+.espgrande {
+	display: none;
+}
 /****************BODY*************/
 
 #lospro {
@@ -244,7 +249,6 @@ footer {
 #napoleon {
 	background-image: url(../img/napoleon3.jpg);
 	background-size: cover;
-	background-position-y: -200px;
 }
 
 .none {
@@ -585,6 +589,56 @@ margin-right: 10px;
 	font-size: 20px;
 }
 
+
+
+#fotonueva {
+	display: block;
+	padding: 10px;
+	margin: 20px auto;
+	width: 100%;
+	height: 30vh;
+	font-size: 100pt;
+	background-color: #eee;
+	color: rgba(0,0,0,.50);
+	text-align: center;
+	line-height: 180px;
+}
+
+#titulofoto {
+	padding: 10px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+.input {
+	background-color: #eee;
+	border-radius: 10px;
+	width: 70%;
+	height: 40px;
+	margin-left:15%;
+	margin-bottom: 20px;
+	text-align: center;
+	border-style: hidden;
+	font-size: 15px;
+
+}
+
+.input:focus {
+  width: 100%;
+  margin-left: 0;
+  outline-color: #fff;
+}
+
+
+.long:focus {
+height: 130px;
+}
+
+#footor {
+	font-size: 20px;
+}
+
 /*++++++++++++++++++++ELFESTI+++++++++++++++++++*/
 
 /*#alguien {
@@ -718,7 +772,8 @@ top: 15vh;*/
 
 #contacta p, #contacta a {
 	font-size: 15px;
-	margin: 10px;
+    margin: 10px auto;
+    display: inline;
 }
 
 }

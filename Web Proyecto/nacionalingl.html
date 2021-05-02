@@ -4,61 +4,65 @@
 	<meta charset="utf-8">
 	<title>Ilícito</title>
 	<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script> 
-	<link rel="stylesheet" type="text/css" href="Estilos/styles.css">
-	<link rel="stylesheet" type="text/css" href="Estilos/queries_pc.css">
+	<link rel="stylesheet" type="text/css" href="Estilos/queries_movil.css">
 	<link rel="stylesheet" type="text/css" href="Estilos/queries_tablet.css">
-	<link rel="stylesheet" type="text/css" href="Estilos/queries_movil.css">	
+	<link rel="stylesheet" type="text/css" href="Estilos/queries_pc.css">
+	<link rel="stylesheet" type="text/css" href="Estilos/styles.css">
 	<link rel="shortcut icon" type="image/svg" href="img/iconili.svg"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>	
-<body>
+<body id="erbodi">
+		<div id="splash">
+			<img id="hero" src="img/principalili.svg"></img>
+			<p id="te">Loading...</p>	
+		</div>
+	
 	<header>
-		<div id="imageder"><a href="index.html"><img id="logoheader" src="img/principalilhor.svg"></a>
+		<div id="imageder"><a href="inglex.html"><img id="logoheader" src="img/principalilhor.svg"></a>
 		</div>
 		<nav id="nav">
-			<li><a href="festi.html">¿Qué es Ilícito?</a></li>
-			<li><div class="jover" id="grupos">Grupos</div>
+			<li><a href="festi.html">About Ilícito</a></li>
+			<li><div class="jover" id="grupos">The groups</div>
 				<ul id="grup">
-					<li><a href="nacional.html">Por días</a></li>
-					<li><a href="nacional.html">Programación del festival</a></li>
+					<li><a href="nacionalingl.html">Daily</a></li>
+					<li><a href="nacionalingl.html">Festival schedule</a></li>
 				</ul>
 			</li>
-			<li><a href="directo.html">Festival en directo</a></li>
-			<li><a href="repro.html">Lista de reproducción</a></li>
-			<li><a href="info.html">Información del festival</a></li>
-			<li><a href="contacto.html">Contacta con nosotros</a></li>
-			<li><a class="espeque" href="inglex.html">English version</a></li>
+			<li><a href="directo.html">Live festival</a></li>
+			<li><a href="repro.html">Play list</a></li>
+			<li><a href="#">Useful information</a></li>
+			<li><a href="contacto.html">Contact us</a></li>
+			<li><a class="espeque" href="index.html">Versión en castellano</a></li>
 
-		</nav>
-		<ul class="iconos">
-			<a class="espgrande" href="inglex.html"><li>ES/EN</li></a>
+			</nav>
+			<ul class="iconos">
+			<a class="espgrande" href="index.html"><li>ES/EN</li></a>
 			<a href="#"><li><i class="ico fas fa-search"></i></li></a>
 			<a href="login.html"><li><i class="ico far fa-user"></i></li></a>
 			<a href="compra.html"><li><i class="ico fas fa-shopping-cart"></i></li></a>
 			<li><img id="hambur" src="img/menu.svg"></li>
-		</ul>
-		
+		</ul>	
 	</header>
 	<aside id="asino">
 		<div id="y">
-			<h2>Filtrar por</h2>
+			<h2>Filter by</h2>
 		</div>
 
 		<div id="filtros">
 				
-				<h3 class="botfiltro" id="botdia">Día</h3>
-				<h3 class="botfiltro" id="bothora">Hora</h3>
-				<h3 class="botfiltro" id="botesce">Escenario</h3>
+				<h3 class="botfiltro" id="botdia">Day</h3>
+				<h3 class="botfiltro" id="bothora">Time</h3>
+				<h3 class="botfiltro" id="botesce">Stage</h3>
 			<div>
 				<div class="filtro" id="dia">
 					<div id="jour" class="opcion">
-						<h6>Día 1</h6>
+						<h6>Day 1</h6>
 						<input id="dia1" type="checkbox" checked value="Día 1">
-						<h6>Día 2</h6>
+						<h6>Day 2</h6>
 						<input id="dia2" type="checkbox" checked value="Día 2">
-						<h6>Día 3</h6>
+						<h6>Day 3</h6>
 						<input id="dia3" type="checkbox" checked value="Día 3">
-						<h6>Día 4</h6>
+						<h6>Day 4</h6>
 						<input id="dia4" type="checkbox" checked value="Día 4">
 					</div>
 				</div>
@@ -76,9 +80,9 @@
 				</div>
 				<div class="filtro" id="escenario">		
 					<div id="scenario" class="opcion">
-						<h6>Escenario 1</h6>
+						<h6>Stage 1</h6>
 						<input id="escenario1" type="checkbox" checked value="on">
-						<h6>Escenario 2</h6>
+						<h6>Stage 2</h6>
 						<input id="escenario2" type="checkbox" checked value="esc2">
 					</div>	
 				</div>
@@ -87,14 +91,14 @@
 	</aside>
 
 <section id="lasesion" class="sectioncorto">
-		<h2 class="dia">Día 1</h2>
+		<h2 class="dia">Day 1</h2>
 		<div class="grupis">
 			<div class="jover cadamipro esc1 16 toca1" id="napoleon">
 				<div class="mipasti">
 					<h1>Napoleón solo</h1>
 					<p>16hs</p>
-					<p>Escenario 1</p>
-					<p>Día 1</p>
+					<p>Stage 1</p>
+					<p>Day 1</p>
 				</div>
 			</div>
 			<div id="nescontinv" class="none">
@@ -107,8 +111,8 @@
 				<div class="mipasti">
 					<h1>Cala Vento</h1>
 					<p>18hs</p>
-					<p>Escenario 1</p>
-					<p>Día 1</p>
+					<p>Stage 1</p>
+					<p>Day 1</p>
 				</div>
 			</div>
 			<div id="triatloninv" class="none">
@@ -121,8 +125,8 @@
 				<div class="mipasti">
 					<h1>Dorian</h1>
 					<p>20hs</p>
-					<p>Escenario 1</p>
-					<p>Día 1</p>
+					<p>Stage 1</p>
+					<p>Day 1</p>
 				</div>
 			</div>
 			<div id="redinv" class="none">
@@ -135,53 +139,53 @@
 						<div class="mipasti">
 						<h1>Mafalda</h1>
 						<p>22hs</p>
-					<p>Escenario 1</p>
-					<p>Día 1</p>
+					<p>Stage 1</p>
+					<p>Day 1</p>
 					</div>
 			</div>
 			<div class="jover cadamipro esc2 16 toca1" id="lala">
 				<div class="mipasti">
 					<h1>La La Love you</h1>
 					<p>16hs</p>
-					<p>Escenario 2</p>
-					<p>Día 1</p>
+					<p>Stage 2</p>
+					<p>Day 1</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 18 toca1" id="luzver">
 				<div class="mipasti">
 					<h1>Luz Verdadera</h1>
 					<p>18hs</p>
-					<p>Escenario 2</p>
-					<p>Día 1</p>
+					<p>Stage 2</p>
+					<p>Day 1</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 20 toca1" id="amor">
 				<div class="mipasti">
 					<h1>Triángulo de amor bizarro</h1>
 					<p>20hs</p>
-					<p>Escenario 2</p>
-					<p>Día 1</p>
+					<p>Stage 2</p>
+					<p>Day 1</p>
 				</div>
 			</div>
 				<div class="jover cadamipro esc2 22 toca1" id="nachin">
 				<div class="mipasti">
 					<h1>Nacho Vegas</h1>
 					<p>22hs</p>
-					<p>Escenario 2</p>
-					<p>Día 1</p>
+					<p>Stage 2</p>
+					<p>Day 1</p>
 				</div>
 			</div>
 		</div>
 
 
-	<h2 class="dia">Día 2</h2>
+	<h2 class="dia">Day 2</h2>
 		<div class="grupis">
 			<div class="jover cadamipro esc1 16 toca2" id="lesbian">
 				<div class="mipasti">
 					<h1>Love of Lesbian</h1>
 					<p>16hs</p>
-					<p>Escenario 1</p>
-					<p>Día 2</p>
+					<p>Stage 1</p>
+					<p>Day 2</p>
 				</div>
 			</div>
 			<div id="lesbinv" class="none">
@@ -194,8 +198,8 @@
 				<div class="mipasti">
 					<h1>Vetusta Morla</h1>
 					<p>18hs</p>
-					<p>Escenario 1</p>
-					<p>Día 2</p>
+					<p>Stage 1</p>
+					<p>Day 2</p>
 				</div>
 			</div>
 			
@@ -203,8 +207,8 @@
 				<div class="mipasti">
 					<h1>Lori Meyers</h1>
 					<p>20hs</p>
-					<p>Escenario 1</p>
-					<p>Día 2</p>
+					<p>Stage 1</p>
+					<p>Day 2</p>
 				</div>
 			</div>
 			<div id="lorinv" class="none">
@@ -217,51 +221,51 @@
 						<div class="mipasti">
 						<h1>Los planetas</h1>
 						<p>22hs</p>
-					<p>Escenario 1</p>
-					<p>Día 2</p>
+					<p>Stage 1</p>
+					<p>Day 2</p>
 					</div>
 			</div>
 			<div class="jover cadamipro esc2 16 toca2" id="losyos">
 				<div class="mipasti">
 					<h1>Los Ivanes Barbagallos</h1>
 					<p>16hs</p>
-					<p>Escenario 2</p>
-					<p>Día 2</p>
+					<p>Stage 2</p>
+					<p>Day 2</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 18 toca2" id="izal">
 				<div class="mipasti">
 					<h1>IZAL</h1>
 						<p>18hs</p>
-					<p>Escenario 2</p>
-					<p>Día 2</p>
+					<p>Stage 2</p>
+					<p>Day 2</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 20 toca2" id="miss">
 				<div class="mipasti">
 					<h1>Miss Cafeína</h1>
 						<p>20hs</p>
-					<p>Escenario 2</p>
-					<p>Día 2</p>
+					<p>Stage 2</p>
+					<p>Day 2</p>
 				</div>
 			</div>
 				<div class="jover cadamipro esc2 22 toca2" id="subnor">
 				<div class="mipasti">
 					<h1>Los subnormales</h1>
 					<p>22hs</p>
-					<p>Escenario 2</p>
-					<p>Día 2</p>
+					<p>Stage 2</p>
+					<p>Day 2</p>
 				</div>
 			</div>
 		</div>
-	<h2 class="dia">Día 3</h2>
+	<h2 class="dia">Day 3</h2>
 		<div class="grupis">
 			<div class="jover cadamipro esc1 16 toca3" id="sidonie">
 				<div class="mipasti">
 					<h1>Sidonie</h1>
 					<p>16hs</p>
-					<p>Escenario 1</p>
-					<p>Día 3</p>
+					<p>Stage 1</p>
+					<p>Day 3</p>
 				</div>
 			</div>
 			<div id="sidainv" class="none">
@@ -274,8 +278,8 @@
 				<div class="mipasti">
 					<h1>La habitación roja</h1>
 					<p>18hs</p>
-					<p>Escenario 1</p>
-					<p>Día 3</p>
+					<p>Stage 1</p>
+					<p>Day 3</p>
 				</div>
 			</div>
 			<div id="habiroinv" class="none">
@@ -288,8 +292,8 @@
 				<div class="mipasti">
 					<h1>La casa azul</h1>
 					<p>20hs</p>
-					<p>Escenario 1</p>
-					<p>Día 3</p>
+					<p>Stage 1</p>
+					<p>Day 3</p>
 				</div>
 			</div>
 			<div id="casazulinv" class="none">
@@ -302,52 +306,52 @@
 						<div class="mipasti">
 						<h1>El columpio asesino</h1>
 						<p>22hs</p>
-					<p>Escenario 1</p>
-					<p>Día 3</p>
+					<p>Stage 1</p>
+					<p>Day 3</p>
 					</div>
 			</div>
 			<div class="jover cadamipro esc2 16 toca3" id="botis">
 				<div class="mipasti">
 					<h1>El botitas y la marrona</h1>
 					<p>16hs</p>
-					<p>Escenario 2</p>
-					<p>Día 3</p>
+					<p>Stage 2</p>
+					<p>Day 3</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 18 toca3" id="australian">
 				<div class="mipasti">
 					<h1>Australian Blonde</h1>
 						<p>18hs</p>
-					<p>Escenario 2</p>
-					<p>Día 3</p>
+					<p>Stage 2</p>
+					<p>Day 3</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 20 toca3" id="carol">
 				<div class="mipasti">
 					<h1>Carolina Durante</h1>
 						<p>20hs</p>
-					<p>Escenario 2</p>
-					<p>Día 3</p>
+					<p>Stage 2</p>
+					<p>Day 3</p>
 				</div>
 			</div>
 				<div class="jover cadamipro esc2 22 toca3" id="mutantes">
 				<div class="mipasti">
 					<h1>Niños mutantes</h1>
 						<p>22hs</p>
-					<p>Escenario 2</p>
-					<p>Día 3</p>
+					<p>Stage 2</p>
+					<p>Day 3</p>
 				</div>
 			</div>
 		</div>
 
-	<h2 class="dia">Día 4</h2>
+	<h2 class="dia">Day 4</h2>
 		<div id="grupis">
 			<div class="jover cadamipro esc1 16 toca4" id="torti">
 				<div class="mipasti">
 					<h1>Tortilla de patatas</h1>
 					<p>16hs</p>
-					<p>Escenario 1</p>
-					<p>Día 4</p>
+					<p>Stage 1</p>
+					<p>Day 4</p>
 				</div>
 			</div>
 			<div id="tortinv" class="none">
@@ -360,8 +364,8 @@
 				<div class="mipasti">
 					<h1>Viva Suecia</h1>
 					<p>18hs</p>
-					<p>Escenario 1</p>
-					<p>Día 4</p>
+					<p>Stage 1</p>
+					<p>Day 4</p>
 				</div>
 			</div>
 			<div id="suecinv" class="none">
@@ -374,8 +378,8 @@
 				<div class="mipasti">
 					<h1>Hinds</h1>
 					<p>20hs</p>
-					<p>Escenario 1</p>
-					<p>Día 4</p>
+					<p>Stage 1</p>
+					<p>Day 4</p>
 				</div>
 			</div>
 			<div id="hindsinv" class="none">
@@ -388,60 +392,59 @@
 						<div class="mipasti">
 						<h1>La buena vida</h1>
 						<p>22hs</p>
-					<p>Escenario 1</p>
-					<p>Día 4</p>
+					<p>Stage 1</p>
+					<p>Day 4</p>
 					</div>
 			</div>
 			<div class="jover cadamipro esc2 16 toca4" id="chino">
 				<div class="mipasti">
 					<h1>Sr. Chinarro</h1>
 					<p>16hs</p>
-					<p>Escenario 2</p>
-					<p>Día 4</p>
+					<p>Stage 2</p>
+					<p>Day 4</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 18 toca4" id="fresa">
 				<div class="mipasti">
 					<h1>Los fresones rebeldes</h1>
 					<p>18hs</p>
-					<p>Escenario 2</p>
-					<p>Día 4</p>
+					<p>Stage 2</p>
+					<p>Day 4</p>
 				</div>
 			</div>
 			<div class="jover cadamipro esc2 20 toca4" id="gusano">
 				<div class="mipasti">
 					<h1>El niño gusano</h1>
 					<p>20hs</p>
-					<p>Escenario 2</p>
-					<p>Día 4</p>
+					<p>Stage 2</p>
+					<p>Day 4</p>
 				</div>
 			</div>
 				<div class="jover cadamipro esc2 22 toca4" id="novedades">
 				<div class="mipasti">
 					<h1>Novedades Carminha</h1>
 					<p>22hs</p>
-					<p>Escenario 2</p>
-					<p>Día 4</p>
+					<p>Stage 2</p>
+					<p>Day 4</p>
 				</div>
 			</div>
 		</div>
 		<div id="laflecha"><img src="img/icon.svg"></div>
 	</section>
 	<footer>
-			<li><a href="info.html">Información del festival</a></li>
+			<li><a href="info.html">Useful information about the festival</a></li>
 			<li><a href="legal.html">Legal</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="contacto.html">Contact us</a></li>
 			<div id="redes">
 				<a href="#"><i class="fab fa-facebook-f"></i></a>
 				<a href="#"><i class="fab fa-instagram"></i></i></a>
 				<a href="#"><i class="fab fa-twitter"></i></a>
-			</div>
+			</div><br>
 			<li>
 				Designed by Iván Barbagallo
 			</li>
 	</footer>
 <script type="text/javascript" language="javascript" src="javascript.js"></script>
 <script type="text/javascript" language="javascript" src="javascriptfiltros.js"></script>
-
-	</body>
+</body>
 </html>
