@@ -54,21 +54,8 @@ section {
 	width: 50%;
 }
 
-
-#grupos {
-  animation-name: anim;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes anim{
-    0% {color: #e90000;} 
-   50% {color: #005b97;}
-   100% {color: #e90000;}
-}
-
 #nav {
-	font-size: 40px;
+	font-size: 30px;
     text-align: center;
 }
 
@@ -84,12 +71,12 @@ section {
 .iconos {
 	padding: 20px 10px;
     float: right;
-    font-size: 30px;
+    font-size: 25px;
     margin: auto;
 }
 
 #hambur {
-	height: 30px;
+	height: 25px;
 }
 
 
@@ -645,14 +632,6 @@ height: 130px;
 
 /*++++++++++++++++++++ELFESTI+++++++++++++++++++*/
 
-/*#alguien {
-background-image: url(../img/festi.jpg);
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}*/
-
 #negro {
 /*	background-color: rgba(0,0,0,.3);*/
     width: 100%;
@@ -660,24 +639,61 @@ background-image: url(../img/festi.jpg);
 
 #descrip {
 	padding: 35px;
-/*    height: calc(35vh - 50px);
-*/    text-align: left;
-    font-size: 50px;
+	text-align: left;
+    font-size: 25px;
     line-height: 35px;
     background-color: black;
-    font-family: helvetica;
+    margin-top: 30px;
 }
 
 #descrip p {
     color:white;
 }
 
-#negro h2 {
-	padding: 30px 10px 0px;
-	font-size: 40px;
+#negro .col1 {
+	padding: 10px 10px 0px;
+	font-size: 25px;
 	text-align: right;
-	color: white;
+	line-height: 25px;
+	color:#e42a31;
 }
+
+.col2 {
+	padding: 10px 10px 0px;
+	font-size: 25px;
+	text-align: left;
+	line-height: 25px;
+	color:#b42f41;
+}
+
+.col3 {
+	padding: 10px 10px 0px;
+	font-size: 25px;
+	text-align: right;
+	line-height: 25px;
+	color:#5a456c;
+}
+
+.col4 {
+	padding: 10px 10px 0px;
+	font-size: 25px;
+	text-align: left;
+	line-height: 25px;
+	color:#0b5892;
+}
+
+#sectionfesti a{
+	color:#e42a31;
+}
+
+.col5 {
+	color:white;
+	font-size: 25px;
+	text-align: left;
+	margin-top:15px; 
+}
+
+
 #video_background {
  position: absolute;
  z-index: -1000;
@@ -689,6 +705,7 @@ top: 15vh;*/
  height: auto;
  overflow: hidden;
  }
+
 
 /*++++++++++++++++++++MENSAJE+++++++++++++++++++*/
 

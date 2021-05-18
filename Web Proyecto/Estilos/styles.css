@@ -132,6 +132,22 @@ section {
 	border: solid 1px;
 }
 
+#grupos {
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim{
+    0% {color: #e42a31;} 
+   16% {color: #b42f41;}
+   33% {color: #5a456c;}
+   50% {color: #0b5892;}
+   66% {color: #5a456c;}
+   82% {color: #b42f41;}
+   98%{color: #e42a31;}
+}
+
 
 .cadapro {
 	text-align: center;

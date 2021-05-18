@@ -54,6 +54,19 @@ section {
 	width: 80%;
 }
 
+
+#grupos {
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim{
+    0% {color: #e90000;} 
+   50% {color: #005b97;}
+   100% {color: #e90000;}
+}
+
 #nav {
 	font-size: 1em;
 	text-align: center;
@@ -643,60 +656,24 @@ background-image: url(../img/festi.jpg);
 
 #descrip {
 	padding: 35px;
-	text-align: left;
-    font-size: 25px;
+/*    height: calc(35vh - 50px);
+*/    text-align: left;
+    font-size: 50px;
     line-height: 35px;
     background-color: black;
-    margin-top: 30px;
+    font-family: helvetica;
 }
 
 #descrip p {
     color:white;
 }
 
-.col1 {
-	padding: 10px 10px 0px;
-	font-size: 25px;
+#negro h2 {
+	padding: 30px 10px 0px;
+	font-size: 40px;
 	text-align: right;
-	line-height: 25px;
-	color:#e42a31;
+	color: white;
 }
-
-.col2 {
-	padding: 10px 10px 0px;
-	font-size: 25px;
-	text-align: left;
-	line-height: 25px;
-	color:#b42f41;
-}
-
-.col3 {
-	padding: 10px 10px 0px;
-	font-size: 25px;
-	text-align: right;
-	line-height: 25px;
-	color:#5a456c;
-}
-
-.col4 {
-	padding: 10px 10px 0px;
-	font-size: 25px;
-	text-align: left;
-	line-height: 25px;
-	color:#0b5892;
-}
-
-#sectionfesti a{
-	color:#e42a31;
-}
-
-.col5 {
-	color:white;
-	font-size: 25px;
-	text-align: left;
-	margin-top:15px; 
-}
-
 #video_background {
  position: absolute;
  z-index: -1000;
