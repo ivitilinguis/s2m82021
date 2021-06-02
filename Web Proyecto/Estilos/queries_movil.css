@@ -30,7 +30,7 @@
 }
 
 #splash p {
-	margin-top: 60vh;
+	margin-top: 40vh;
 	color: white;
 }
 
@@ -865,6 +865,10 @@ background-image: url(../img/festi.jpg);
 #cc a {
 	color: white;
 	font-size: 8px;
+}
+
+.lachechon {
+	height: 60vh;
 }
 
 }
