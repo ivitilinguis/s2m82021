@@ -37,6 +37,18 @@
 /*+++++++INDEX++++++++*/
 
 
+#nav {
+	z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,.90);
+	width: calc(100% - 20px);
+	top:16vh;
+	height: 83vh;
+	color: #e90000;
+	border: solid 1px;
+}
+
 header {
 	padding: 10px;
 }
@@ -183,9 +195,6 @@ footer {
 	margin: 5px;
 }
 
-#filtros {
-	margin: 10px;
-}
 
 #dia {
     position: absolute;
@@ -442,7 +451,7 @@ footer {
 
 #icuser {
 	font-size: 60px;
-	color: #e90000;
+	color: #e42a31;
 }
 
 #formlog {
@@ -459,7 +468,7 @@ footer {
 	margin: 30px auto;
 	width: 30%;
 	height: 40px;
-	background-color: rgba(255,50,50,.75);
+	background-color: #0a5991;
 	color: white;
 	/*border: solid 1px red;*/
 	border-radius: 50px;
@@ -641,6 +650,11 @@ background-image: url(../img/festi.jpg);
     width: 100%;
 }
 
+#ilicito {
+	width: 100%;
+	padding: 5px;
+}
+
 #descrip {
 	padding: 35px;
 	text-align: left;
@@ -665,9 +679,9 @@ background-image: url(../img/festi.jpg);
 .col2 {
 	padding: 10px 10px 0px;
 	font-size: 25px;
-	text-align: left;
+	text-align: right;
 	line-height: 25px;
-	color:#b42f41;
+	color:#b52d3f;
 }
 
 .col3 {
@@ -675,15 +689,15 @@ background-image: url(../img/festi.jpg);
 	font-size: 25px;
 	text-align: right;
 	line-height: 25px;
-	color:#5a456c;
+	color:#59456b;
 }
 
 .col4 {
 	padding: 10px 10px 0px;
 	font-size: 25px;
-	text-align: left;
+	text-align: right;
 	line-height: 25px;
-	color:#0b5892;
+	color:#0a5991;
 }
 
 #sectionfesti a{
@@ -693,21 +707,13 @@ background-image: url(../img/festi.jpg);
 .col5 {
 	color:white;
 	font-size: 25px;
-	text-align: left;
-	margin-top:15px; 
+	text-align: right;
+	padding: 10px 10px 0px;
+	animation-name: anim;
+ 	animation-duration: 5s;
+ 	animation-iteration-count: infinite;
 }
 
-#video_background {
- position: absolute;
- z-index: -1000;
-/* width: 100vw;
-top: 15vh;*/
- right: 0px;
-/* min-width: 100%;
- min-height: 100%;*/
- height: auto;
- overflow: hidden;
- }
 
 /*++++++++++++++++++++MENSAJE+++++++++++++++++++*/
 
@@ -758,16 +764,19 @@ top: 15vh;*/
 	color: red;
 }
 
-#minivideos {
+.inflex {
 	display: inline-flex;
 	overflow-x: scroll;
-	height: 30vh;
+	height: 20vh;
+	color: black;
 }
 
 #minivideos video {
-	/*width: 30%;*/
-	height: 60%;
-	margin: auto;}
+	width: 30%;
+	/*height: 100%;*/
+	margin: 0 10px;}
+
+
 
 
 /*++++++++++++++++++++COMPRA+++++++++++++++++++*/
@@ -782,6 +791,7 @@ top: 15vh;*/
 
 #contacta {
 	color: black;
+	padding: 12px;
 }
 
 #contacta input {
@@ -793,10 +803,68 @@ top: 15vh;*/
 	height: 100px!important;
 }
 
-#contacta p, #contacta a {
+#contacta p {
 	font-size: 15px;
     margin: 10px auto;
     display: inline;
+}
+
+#contacta a {
+	font-size: 15px;
+    margin: 10px auto;
+    display: inline;
+    color: #e42a31;
+}
+
+#informa {
+	font-size: 10px;
+	line-height: 12px;
+}
+
+#informa a {
+	color: white;
+}
+
+
+.llega {
+	width: 80vw;
+}
+
+.ilici {
+	text-align: left;
+	font-size: 25px;
+}
+
+.ili1 {
+	background-color: #e42a31;
+	padding: 12px;
+}
+
+.ili2 {
+	background-color: #b52d3f;
+	padding: 12px;
+}
+
+.ili3 {
+	background-color: #59456b;
+	padding: 12px;
+}
+
+.ili4 {
+	background-color: #0a5991;
+	padding: 12px;
+}
+
+#cc {
+	color: white;
+	font-size: 8px;
+	line-height: 10px;
+	margin-bottom: 15px;
+}
+
+#cc a {
+	color: white;
+	font-size: 8px;
 }
 
 }

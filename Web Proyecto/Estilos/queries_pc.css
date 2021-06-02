@@ -7,7 +7,7 @@
     height: 100vh;
     width: 100vw;
     background-color: rgba(0,0,0,.35);
-    background-image: url(../img/fondospl1.jpg);
+    background-image: url(../img/fondospl12.jpg);
     background-size: cover;
     text-align: center;
     animation-name: back;
@@ -16,10 +16,10 @@
 }
 
 @keyframes back{
-    0% {background-image: url(../img/fondospl1.jpg);} 
-   30% {background-image: url(../img/fondospl21.jpg)}
-   60% {background-image: url(../img/fondospl3.jpg);} 
-   90% {background-image: url(../img/fondospl1.jpg);}
+    0% {background-image: url(../img/fondospl12.jpg);} 
+   30% {background-image: url(../img/fondospl2.jpg)}
+   60% {background-image: url(../img/fondospl31.jpg);} 
+   90% {background-image: url(../img/fondospl12.jpg);}
 }
 
 #hero {
@@ -32,7 +32,7 @@
 #splash p {
 	margin-top: 40vh;
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 /*+++++++INDEX++++++++*/
@@ -47,8 +47,7 @@ section {
 }
 
 #imageder {
-	width: 30%;
-	margin: auto;
+	padding: 20px 10px;
 }
 
 #logoheader {
@@ -56,7 +55,15 @@ section {
 }
 
 #nav {
-	font-size: 30px;
+	z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,.90);
+	width: 60%;
+	left: 20%;
+	top:16vh;
+	color: #e90000;
+	border: solid 1px;
     text-align: center;
 }
 
@@ -72,12 +79,11 @@ section {
 .iconos {
 	padding: 20px 10px;
     float: right;
-    font-size: 25px;
-    margin: auto;
+    font-size: 20px;
 }
 
 #hambur {
-	height: 25px;
+	height: 20px;
 }
 
 
@@ -430,22 +436,22 @@ footer {
 #circo {
 	background-color: rgba(0,0,0,.25);
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     margin: 20px auto;
     overflow: hidden;
     text-align: center;
 }
 
 #icuser {
-	font-size: 60px;
+	font-size: 120px;
 	color: #e90000;
 }
 
 #formlog {
-    width: 50%;
+    width: 40%;
 	display: grid;
-	margin: 80px auto;
+	margin: 30px auto 0;
 }
 
 #formlog input {
@@ -453,25 +459,38 @@ footer {
 	height: 35px;
 }
 
-
-#enviar {
-	margin: 30px auto;
-	width: 30%;
-	height: 40px;
-	background-color: rgba(255,50,50,.75);
-	color: white;
-	/*border: solid 1px red;*/
-	border-radius: 50px;
-	text-align: center;
-	padding: 10px;
-}
-
 /*+++++++++++++++++PROFILE+++++++++++++++++++++++++++++*/
 
-aside {
+#aside {
 	height: 15vh;
 	overflow-x: scroll;
+	width: 40%;
+	margin: auto;
+	padding: 5px;
+	border: solid 1px rgba(0,0,0,.2);
+	border-radius: 5px;
 }
+
+
+.lachechon {
+	width: 50%;
+	margin: 20px auto;
+	padding: 5px;
+	border: solid 1px rgba(0,0,0,.2);
+	border-radius: 5px;
+	height: calc(60vh - 20px);
+}
+
+#lasesiona {
+	width: 50%;
+	margin: auto;
+	padding: 5px;
+	border: solid 1px rgba(0,0,0,.2);
+	border-radius: 5px;
+	height: 75vh;
+}
+
+
 
 .sectioncorta {
 	height: 60vh;
@@ -570,7 +589,9 @@ margin-right: 10px;
 }
 
 #futprof {
-	font-size: 20px;
+	font-size: 25px;
+	width: 65%;
+	margin: auto;
 }
 
 /*++++++++++++++++++++UPLOAD+++++++++++++++++++*/
@@ -621,7 +642,9 @@ height: 130px;
 }
 
 #footor {
-	font-size: 20px;
+	font-size: 35px;
+	width: 65%;
+	margin: auto;
 }
 
 /*++++++++++++++++++++ELFESTI+++++++++++++++++++*/
@@ -644,7 +667,7 @@ height: 130px;
     color:white;
 }
 
-#negro .col1 {
+.col1 {
 	padding: 10px 10px 0px;
 	font-size: 25px;
 	text-align: right;
@@ -655,7 +678,7 @@ height: 130px;
 .col2 {
 	padding: 10px 10px 0px;
 	font-size: 25px;
-	text-align: left;
+	text-align: right;
 	line-height: 25px;
 	color:#b42f41;
 }
@@ -671,7 +694,7 @@ height: 130px;
 .col4 {
 	padding: 10px 10px 0px;
 	font-size: 25px;
-	text-align: left;
+	text-align: right;
 	line-height: 25px;
 	color:#0b5892;
 }
@@ -681,10 +704,13 @@ height: 130px;
 }
 
 .col5 {
-	color:white;
 	font-size: 25px;
-	text-align: left;
-	margin-top:15px; 
+	line-height: 25px;
+	text-align: right;
+	padding: 10px 10px 0px;
+	animation-name: anim;
+ 	animation-duration: 5s;
+ 	animation-iteration-count: infinite;
 }
 
 #video_background {
@@ -705,7 +731,7 @@ top: 15vh;*/
 #conv {
 	margin: 10px;
 	padding: 10px;
-	height: 50vh;
+	height: 45vh;
 	background-color: rgba(0,0,0,.15);
 	border-radius: 10px;
 	font-size: 10px;
@@ -772,21 +798,110 @@ top: 15vh;*/
 
 #contacta {
 	color: black;
+	width: 90vw;
+    margin: auto;
 }
 
-#contacta input {
+#formu {
+	width:100%;
+	text-align: center;
+}
+
+#contacta .inpute {
 	height: 40px;
 	margin: 10px;
 	width: 90vw;
 }
+
+#enviar {
+	margin: 30px auto;
+	width: 30%;
+	height: 40px;
+	background-color: #0a5991;
+	color: white;
+	border-radius: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
 #problema {
 	height: 100px!important;
 }
 
-#contacta p, #contacta a {
+
+#informa {
+	font-size: 15px;
+	line-height: 17px;
+	font-weight: 200;
+}
+
+#informa a {
+	color: white;
+}
+
+#contacta p {
 	font-size: 15px;
     margin: 10px auto;
     display: inline;
+}
+
+#contacta a {
+	font-size: 15px;
+    margin: 10px auto;
+    display: inline;
+    color: #e42a31;
+}
+
+
+.llega {
+	  width: 30vw;
+	  display: block;
+	  padding:10px;
+	  margin: auto;
+}
+
+.ilici {
+	text-align: left;
+	font-size: 30px;
+}
+
+.ili1 {
+	background-color: #e42a31;
+	padding: 12px;
+}
+
+.ili2 {
+	background-color: #b52d3f;
+	padding: 12px;
+}
+
+.ili3 {
+	background-color: #59456b;
+	padding: 12px;
+}
+
+.ili4 {
+	background-color: #0a5991;
+	padding: 12px;
+}
+
+#mapi {
+	height: 50vh;
+}
+
+#cc {
+	color: white;
+	font-size: 12px;
+}
+
+#cc a {
+	color: white;
+	font-size: 12px;
+}
+
+#headerprofi {
+	width: 60%;
+	margin: auto;
 }
 
 }

@@ -36,6 +36,18 @@
 
 /*+++++++INDEX++++++++*/
 
+#nav {
+	z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,.90);
+	width: 60%;
+	left: 20%;
+	top:16vh;
+	color: #e90000;
+	border: solid 1px;
+    text-align: center;
+}
 
 header {
 	padding: 10px;
@@ -54,11 +66,6 @@ section {
 	width: 50%;
 }
 
-#nav {
-	font-size: 30px;
-    text-align: center;
-}
-
 #nav li{
 /*	display: inline-block;*/
 	padding:20px;
@@ -71,12 +78,12 @@ section {
 .iconos {
 	padding: 20px 10px;
     float: right;
-    font-size: 25px;
-    margin: auto;
+    font-size: 20px;
+    
 }
 
 #hambur {
-	height: 25px;
+	height: 20px;
 }
 
 
@@ -107,22 +114,6 @@ margin: 0 5px;
 	width: calc(50% - 2px);
 	float: left;
 }
-
-
-
-
-/* #video_pattern {
- background:#fff;
- position: fixed;
- opacity: 0.8;
- left: 0px;
- top: 0px;
- width: 100%;
- height: 100%;
- z-index: 1;
- }*/
-
-/* */
 
 #festival {
 	background-image: url(../img/festi.jpg);
@@ -434,39 +425,27 @@ footer {
 #circo {
 	background-color: rgba(0,0,0,.25);
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     margin: 20px auto;
     overflow: hidden;
     text-align: center;
 }
 
 #icuser {
-	font-size: 60px;
-	color: #e90000;
+	font-size: 90px;
+	color: #e42a31;
 }
 
 #formlog {
     width: 50%;
 	display: grid;
-	margin: 80px auto;
+	margin: auto;
 }
 
 #formlog input {
 	margin: 10px 25px;
 	height: 40px;
-}
-
-#enviar {
-	margin: 30px auto;
-	width: 30%;
-	height: 40px;
-	background-color: rgba(255,50,50,.75);
-	color: white;
-	/*border: solid 1px red;*/
-	border-radius: 50px;
-	text-align: center;
-	padding: 10px;
 }
 
 /*+++++++++++++++++PROFILE+++++++++++++++++++++++++++++*/
@@ -575,7 +554,7 @@ margin-right: 10px;
 }
 
 #futprof {
-	font-size: 20px;
+	    font-size: 35px;
 }
 
 /*++++++++++++++++++++UPLOAD+++++++++++++++++++*/
@@ -627,7 +606,7 @@ height: 130px;
 }
 
 #footor {
-	font-size: 20px;
+	    font-size: 35px;
 }
 
 /*++++++++++++++++++++ELFESTI+++++++++++++++++++*/
@@ -640,8 +619,8 @@ height: 130px;
 #descrip {
 	padding: 35px;
 	text-align: left;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 50px;
     background-color: black;
     margin-top: 30px;
 }
@@ -650,61 +629,51 @@ height: 130px;
     color:white;
 }
 
-#negro .col1 {
+.col1 {
 	padding: 10px 10px 0px;
-	font-size: 25px;
+	font-size: 45px;
 	text-align: right;
-	line-height: 25px;
+	line-height: 45px;
 	color:#e42a31;
 }
 
 .col2 {
 	padding: 10px 10px 0px;
-	font-size: 25px;
-	text-align: left;
-	line-height: 25px;
-	color:#b42f41;
+	font-size: 45px;
+	text-align: right;
+	line-height: 45px;
+	color:#b52d3f;
 }
 
 .col3 {
 	padding: 10px 10px 0px;
-	font-size: 25px;
+	font-size: 45px;
 	text-align: right;
-	line-height: 25px;
-	color:#5a456c;
+	line-height: 45px;
+	color:#59456b;
 }
 
 .col4 {
 	padding: 10px 10px 0px;
-	font-size: 25px;
-	text-align: left;
-	line-height: 25px;
-	color:#0b5892;
+	font-size: 45px;
+	text-align: right;
+	line-height: 45px;
+	color:#0a5991;
+}
+
+.col5 {
+	font-size: 45px;
+	line-height: 45px;
+	text-align: right;
+	padding: 10px 10px 0px;
+	animation-name: anim;
+ 	animation-duration: 5s;
+ 	animation-iteration-count: infinite;
 }
 
 #sectionfesti a{
 	color:#e42a31;
 }
-
-.col5 {
-	color:white;
-	font-size: 25px;
-	text-align: left;
-	margin-top:15px; 
-}
-
-
-#video_background {
- position: absolute;
- z-index: -1000;
-/* width: 100vw;
-top: 15vh;*/
- right: 0px;
-/* min-width: 100%;
- min-height: 100%;*/
- height: auto;
- overflow: hidden;
- }
 
 
 /*++++++++++++++++++++MENSAJE+++++++++++++++++++*/
@@ -715,7 +684,7 @@ top: 15vh;*/
 	height: 50vh;
 	background-color: rgba(0,0,0,.15);
 	border-radius: 10px;
-	font-size: 10px;
+	font-size: 16px;
 	color:#b42f41;
 }
 
@@ -723,7 +692,6 @@ top: 15vh;*/
 #send {
 	margin: 10px;
 	text-align: center;
-
 }
 
 #mensaje {
@@ -732,10 +700,12 @@ top: 15vh;*/
 	width: 85%;
 	height: 5vh;
 	background-color: rgba(0,0,0,.15);
+	font-size: 20px;
 }
 
 #mande {
 	color:black;
+	font-size: 40px;
 }
 
 .quien:hover {
@@ -748,12 +718,12 @@ top: 15vh;*/
 /*++++++++++++++++++++REPRO+++++++++++++++++++*/
 
 #videogordo {
-	width: 100%;
+	height: 45vh;
 	margin-top: 2vh;
 }
 
 #videogordo video {
-	color: red;
+	height: 100%;
 }
 
 #minivideos {
@@ -780,21 +750,102 @@ top: 15vh;*/
 
 #contacta {
 	color: black;
+	width: 90vw;
+    margin: auto;
 }
 
-#contacta input {
+#formu {
+	width:100%;
+	text-align: center;
+}
+
+#contacta .inpute {
 	height: 40px;
 	margin: 10px;
 	width: 90vw;
 }
+
+#enviar {
+	margin: 25px auto;
+	width: 30%;
+	height: 40px;
+	background-color: #0a5991;
+	color: white;
+	border-radius: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
 #problema {
 	height: 100px!important;
 }
 
-#contacta p, #contacta a {
+
+#informa {
+	font-size: 15px;
+	line-height: 17px;
+	font-weight: 200;
+}
+
+#informa a {
+	color: white;
+}
+
+#contacta p {
 	font-size: 15px;
     margin: 10px auto;
     display: inline;
+}
+
+#contacta a {
+	font-size: 15px;
+    margin: 10px auto;
+    display: inline;
+    color: #e42a31;
+}
+
+
+.llega {
+	width: 93vw;
+}
+
+.ilici {
+	text-align: left;
+	font-size: 45px;
+}
+
+.ili1 {
+	background-color: #e42a31;
+	padding: 12px;
+}
+
+.ili2 {
+	background-color: #b52d3f;
+	padding: 12px;
+}
+
+.ili3 {
+	background-color: #59456b;
+	padding: 12px;
+}
+
+.ili4 {
+	background-color: #0a5991;
+	padding: 12px;
+}
+
+#mapi {
+	height: 50vh;
+}
+
+#cc {
+	color: white;
+	font-size: 12px;
+}
+
+#cc a {
+	color: white;
+	font-size: 12px;
 }
 
 }

@@ -120,17 +120,7 @@ section {
 	color: white;
 }
 
-#nav {
-	z-index: 1;
-	display: none;
-	position: absolute;
-	background-color: rgba(255,255,255,.90);
-	width: calc(100% - 20px);
-	top:16vh;
-	height: 83vh;
-	color: #e90000;
-	border: solid 1px;
-}
+
 
 #grupos {
   animation-name: anim;
@@ -140,11 +130,11 @@ section {
 
 @keyframes anim{
     0% {color: #e42a31;} 
-   16% {color: #b42f41;}
-   33% {color: #5a456c;}
-   50% {color: #0b5892;}
-   66% {color: #5a456c;}
-   82% {color: #b42f41;}
+   16% {color: #b52d3f;}
+   33% {color: #59456b;}
+   50% {color: #0a5991;}
+   66% {color: #59456b;}
+   82% {color: #b52d3f;}
    98%{color: #e42a31;}
 }
 
