@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", tempi);
 
 function tempi () {
-	setTimeout(splashea, 300);
+	setTimeout(splashea, 3000);
 }
 
 function splashea() {
